@@ -1,3 +1,5 @@
+# Week 2
+
 ## References
 
 - Class Slides to be added
@@ -23,7 +25,11 @@
 
 ## Assignment
 
-### Part 1: Decode
+<details>
+
+<summary>Creative Exercises Path • Decoding / Debugging / Unpredictability</summary>
+
+#### Part 1: Decode
 
 Use the [Decode process](https://github.com/ellennickles/code-your-way-s26/blob/main/decode.md) to practice reading and analyzing code BEFORE running it to predict the outcome.
 
@@ -45,7 +51,7 @@ explanations and examples of these p5.js functions, and then:
 - [Decode
   5](https://github.com/ellennickles/code-your-way-s26/blob/main/week2/decode5.js)
 
-#### Resources
+##### Resources
 
 - **TL;DW**
   - Did you know that the [`random()`](https://p5js.org/reference/p5/random)
@@ -84,7 +90,7 @@ explanations and examples of these p5.js functions, and then:
 - Patt Vira’s tutorials on the [While
   Loop](https://www.pattvira.com/intro-to-creative-coding/while-loop) and [For Loop](https://www.pattvira.com/intro-to-creative-coding/for-loop)
 
-### Part 2: Re/Code
+#### Part 2: Re/Code
 
 - This assignment introduces unpredictability into our programs by
   coding procedural drawing rule sets with random functions. Invent your own
@@ -108,7 +114,7 @@ explanations and examples of these p5.js functions, and then:
     Art](https://tylerxhobbs.com/essays/2016/working-with-color-in-generative-art)
     by Tyler Hobbs
 
-### Part 3: Document
+#### Part 3: Document
 
 - Document your work. Link to your sketches from Parts 1 and 2. Copy and paste
   any code from Visual Studio Code into the p5 web editor, so you can link to your
@@ -118,9 +124,9 @@ explanations and examples of these p5.js functions, and then:
   during the exercises. What graphic or animation effects are most pleasing to
   you? Where did you get stuck, and what steps did you take to troubleshoot?
   What code-related techniques would you like to explore and practice more?
-- [Submit here]()
+- [Submit here](https://forms.gle/HaUJ7Mg74TJHxrJe8)
 
-### Part 4: Prepare for next week (plan ahead—this might take a few days!)
+#### Part 4: (FOR EVERYONE) Prepare for next week (plan ahead—this might take a few days!)
 
 Next week, we'll experiment with GitHub Copilot Pro, an AI-powered coding assistant, in Visual Studio Code.
 
@@ -131,3 +137,47 @@ While a free version of Copilot ([Copilot Free](https://docs.github.com/en/copil
   account](https://github.com/education/students).
 3. Once verified as a student, [request free GitHub Copilot Pro
   access](https://docs.github.com/en/copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-your-github-copilot-pro-subscription/getting-free-access-to-copilot-pro-as-a-student-teacher-or-maintainer). (Approval might take several days.)
+
+</details>
+
+### Self-Guided Study Path • Finalize Your Plan / Begin Learning
+
+#### Part 1: Finalize your learning plan
+
+Your learning plan was due last night, and I'll review it and reach out to you
+individually this week with feedback and any questions. In the meantime, go
+ahead and start working through your resources and don't wait for my approval to
+begin.
+
+If you haven't submitted your plan yet, please do so as soon as possible so we can get you on track.
+
+#### Part 2: Start learning!
+
+Dive into your resources and begin working through them. This week, aim to:
+
+- Complete the first section or module of your chosen tutorial or course
+- Get your development environment set up if you haven't already (this might
+  include installing software, creating accounts, or configuring tools specific
+  to your technology)
+- Depending on your goal(s), try a small exercise or experiment to test what
+  you're learning
+
+Don't worry about moving fast. Focus on building understanding. If you get stuck,
+note your questions in your documentation and/or bring them to class or student hours.
+
+#### Part 3: Document
+
+- Documenting your weekly progress and reflections will be valuable for tracking
+  your growth. Use this outline to guide your documentation:
+  - What did you work on this week? (topics, exercises, mini-projects, etc.)
+  - What clicked? (concepts or techniques that made sense or felt useful)
+  - What was challenging? (any points of confusion, how you approached them, and
+  whether you found a solution or decided to revisit them later)
+  - What’s next? (next steps and any lingering questions to explore)
+- [Submit here](https://forms.gle/HaUJ7Mg74TJHxrJe8)
+
+#### Part 4: (FOR EVERYONE) Prepare for next week (plan ahead—this might take a few days!)
+
+Complete Part 4 above to get GitHub Copilot Pro set up. Even though you're on
+the self-guided path, we'll explore AI-assisted coding together in class as
+these tools might support your independent project development, too.
