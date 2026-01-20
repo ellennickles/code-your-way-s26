@@ -20,12 +20,12 @@ of the Arts • Spring 2026
 
 | Date | Week | Assignment |
 | :--- | :--- | :--- |
-| Jan 26 | [Week 1]() | Pseudocoding / Looping Animations |
+| Jan 26 | Week 1 | [Pseudocoding / Looping Animations OR Design a Learning Plan]() |
 | Feb 2 | Week 2 | Debugging / Visual Studio Code / Unpredictability |
-| Feb 9 | Week 3 | Prompt Engineering / GitHub Copilot / Iterative Patterns 1 |
+| Feb 9 | Week 3 | GitHub Copilot / Iterative Patterns 1 |
 | Feb 16 | No Class | Presidents’ Day |
 | Feb 17 | Week 4 | (Tuesday) Version Control 1 / Iterative Patterns 2 |
-| Feb 23 | Week 5 | Version Control 2 / Parametric Geometries) |
+| Feb 23 | Week 5 | Version Control 2 / Parametric Geometries |
 | Mar 2 | Week 6 | Version Control 3 / Refactoring |
 | Mar 9 | Week 7 | Version Control 4 / Project Planning |
 | Mar 16 | No Class | Spring Break |
@@ -68,7 +68,15 @@ strategies for learning new algorithms, writing pseudocode, debugging, refactori
 code examples for the activities and assignments draw inspiration from the
 history of creative coding. The second part of the semester shifts to a project
 development studio format for students to apply these strategies to a
-self-directed project. This could be an existing idea or one devised during the course.
+self-directed project. This could be an existing idea or one devised during the
+course.
+
+**New this year:** Students who already have a project idea that requires
+learning a specific tool or tools have the option to spend the first half of the
+semester focused on learning that tool instead of the weekly creative exercises.
+This self-guided study path is designed for students who want to front-load
+their learning so they can focus on creating in the second half. Students on
+this path still participate in class discussions and practice shared skills alongside everyone else.
 
 Ultimately this course aims to empower students to reflect on their process and teach themselves how to program with greater efficiency and independence. It is a direct follow-up to Introduction to Computational Media (ICM) or for anyone interested in advancing their coding practice.
 
