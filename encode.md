@@ -4,6 +4,8 @@
 [PRIMM](https://www.raspberrypi.org/blog/primm-talk-in-programming-lessons-research-seminar/)
 approach ([official website](https://primmportal.com/))
 
+_How do artists encode their visions into code? Study their encoding process by reverse-engineering it._
+
 Steps to start reverse engineering sketches:
 
 1. **Run** • Before you look at the source code, run the sketch in full screen

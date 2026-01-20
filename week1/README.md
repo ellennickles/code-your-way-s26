@@ -28,18 +28,19 @@ Use the [Encode
 process](https://github.com/ellennickles/code-your-way-s26/blob/main/encode.md)
 to reverse engineer these sketches:
 
-- [Ellen's Encode Demo](https://editor.p5js.org/enickles/sketches/ip_x0ihpB) of
+- [Ellen's Encode Demo](https://editor.p5js.org/enickles/sketches/hlAgapATC) of
   Vera Molnár's Tête-Bêche
-- [Encode 1](https://editor.p5js.org/enickles/full/SVWlPsd4N) (class example,
+- [Encode 1](https://editor.p5js.org/enickles/full/VaGWbXk_c) (class example,
   complete only if you still have questions)
-- [Encode 2](https://editor.p5js.org/enickles/full/MmeQGtwMD)
-- [Encode 3](https://editor.p5js.org/enickles/full/Vdbb10E_x)
-- [Encode 4](https://editor.p5js.org/enickles/full/Ia5UitZe-)
-- [Encode 5](https://editor.p5js.org/enickles/full/2pj-IIxtr) (updated)
+- [Encode 2](https://editor.p5js.org/enickles/full/3pFmuocV-)
+- [Encode 3](https://editor.p5js.org/enickles/full/fzcM-NjHz)
+- [Encode 4](https://editor.p5js.org/enickles/full/Lfpvl2Rsp)
+- [Encode 5](https://editor.p5js.org/enickles/full/r_6gG2Nc8)
 
-**Note on AI:** During the Encode process, you can use AI to clarify unfamiliar
-concepts or syntax (see Step 3). For your Re/Code sketch in Part 3 below, try
-working without AI. The goal there is to practice your own problem-solving process.
+**Note on AI:** During the Encode process, feel free to use AI and the resources
+below to clarify unfamiliar concepts or syntax (see Step 3). For your Re/Code
+sketch in Part 3 below, try working without AI. The goal there is to practice
+your own problem-solving process.
 
 #### Resources
 
