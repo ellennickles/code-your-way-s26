@@ -1,4 +1,4 @@
-# Week 1 • Getting Started
+# Week 1
 
 ## References
 
@@ -16,7 +16,11 @@
 
 ## Assignment due the night before our next class
 
-### Creative Exercises Path • Pseudocoding / Looping Animations
+### Creative Exercises Path • Pseudocoding / Encoding / Looping Animations
+
+<details>
+
+<summary>Assignment details</summary>
 
 #### Part 1: Set up
 
@@ -128,7 +132,13 @@ your own problem-solving process.
   code-related techniques would you like to explore and practice more?
 - [Submit here](https://forms.gle/HaUJ7Mg74TJHxrJe8)
 
+</details>
+
 ### Self-Guided Study Path • Design a Learning Plan
+
+<details>
+
+<summary>Assignment details</summary>
 
 If you already have a project idea that requires learning a specific tool—like
 building a portfolio site with HTML/CSS, or working in Python—you can spend
@@ -163,3 +173,5 @@ need to have everything figured out yet, we can refine this together. For now, s
   milestones.
 - What questions do you have? What feels uncertain?
 - [Submit here](https://forms.gle/HaUJ7Mg74TJHxrJe8)
+
+</details>
