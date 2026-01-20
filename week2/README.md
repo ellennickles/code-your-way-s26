@@ -1,13 +1,12 @@
 ## References
 
-- [Class
-  Slides](https://drive.google.com/drive/folders/1HC5g1BO8moptbtgz-JwVVv9DldnW3Q_U?usp=sharing)
-- [In-class code tracing example](https://editor.p5js.org/enickles/sketches/rqjScpXGp) from Ellen
+- Class Slides to be added
+- [In-class code tracing example](https://editor.p5js.org/enickles/sketches/lC6D3A-1w) from Ellen
 - [A Brief Introduction to Debugging Parts
   1-4](https://vimeo.com/channels/debugging) (p5 is not mentioned, but these
   strategies are universal for all programming languages) ~15min
 - p5 Tutorial: [A Field Guide to
-  Debugging](https://p5js.org/learn/debugging.html)
+  Debugging](https://p5js.org/tutorials/field-guide-to-debugging/)
 - [Rubber Duck Debugging: Debugging software with a rubber
   ducky](https://rubberduckdebugging.com/)
 - [Happy Coding Debugging p5.js
@@ -26,16 +25,16 @@
 
 ### Part 1: Decode
 
-Use the [Decode process](https://github.com/ellennickles/code-your-way-s25/blob/main/decode.md) to practice reading and analyzing code before running it to predict the outcome.
+Use the [Decode process](https://github.com/ellennickles/code-your-way-s26/blob/main/decode.md) to practice reading and analyzing code BEFORE running it to predict the outcome.
 
 - [Decode
-  1](https://github.com/ellennickles/code-your-way-s25/blob/main/week2/decode1.js)
+  1](https://github.com/ellennickles/code-your-way-s26/blob/main/week2/decode1.js)
 - [Decode
-  2](https://github.com/ellennickles/code-your-way-s25/blob/main/week2/decode2.js)
+  2](https://github.com/ellennickles/code-your-way-s26/blob/main/week2/decode2.js)
 - [Decode
-  3](https://github.com/ellennickles/code-your-way-s25/blob/main/week2/decode3.js)
+  3](https://github.com/ellennickles/code-your-way-s26/blob/main/week2/decode3.js)
 - [Decode
-  4](https://github.com/ellennickles/code-your-way-s25/blob/main/week2/decode4.js)
+  4](https://github.com/ellennickles/code-your-way-s26/blob/main/week2/decode4.js)
 
 Watch [Coding Train videos
 I.2-I.4](https://thecodingtrain.com/tracks/the-nature-of-code-2/noc/perlin/intro-to-perlin-noise)
@@ -44,7 +43,7 @@ code](https://editor.p5js.org/codingtrain/collections/qTyT_RX11)), or ask AI for
 explanations and examples of these p5.js functions, and then:
 
 - [Decode
-  5](https://github.com/ellennickles/code-your-way-s25/blob/main/week2/decode5.js)
+  5](https://github.com/ellennickles/code-your-way-s26/blob/main/week2/decode5.js)
 
 #### Resources
 
@@ -78,10 +77,12 @@ explanations and examples of these p5.js functions, and then:
 - [RANDOM.ORG: Introduction to Randomness and Random
   Numbers](https://www.random.org/randomness/) on “why it's hard (and
   interesting) to get a computer to generate proper random numbers.”
-- [Coding Train videos on conditional
+- Coding Train videos on [conditional
   statements](https://thecodingtrain.com/tracks/code-programming-with-p5-js/code/3-conditionals/1-conditionals)
-- [Coding Train videos on while and for
+  and [while and for
   loops](https://thecodingtrain.com/tracks/code-programming-with-p5-js/code/4-loops/1-while-for)
+- Patt Vira’s tutorials on the [While
+  Loop](https://www.pattvira.com/intro-to-creative-coding/while-loop) and [For Loop](https://www.pattvira.com/intro-to-creative-coding/for-loop)
 
 ### Part 2: Re/Code
 
