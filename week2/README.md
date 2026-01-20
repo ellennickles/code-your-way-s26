@@ -118,7 +118,7 @@ explanations and examples of these p5.js functions, and then:
   during the exercises. What graphic or animation effects are most pleasing to
   you? Where did you get stuck, and what steps did you take to troubleshoot?
   What code-related techniques would you like to explore and practice more?
-- [Submit here](https://forms.gle/CJZMpMpTeDxpvWv18)
+- [Submit here]()
 
 ### Part 4: Prepare for next week (plan ahead—this might take a few days!)
 
