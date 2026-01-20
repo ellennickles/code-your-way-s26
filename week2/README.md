@@ -25,9 +25,10 @@
 
 ## Assignment
 
+### Creative Exercises Path • Decoding / Debugging / Unpredictability
 <details>
 
-<summary>Creative Exercises Path • Decoding / Debugging / Unpredictability</summary>
+<summary>Assignment details</summary>
 
 #### Part 1: Decode
 
@@ -142,6 +143,10 @@ While a free version of Copilot ([Copilot Free](https://docs.github.com/en/copil
 
 ### Self-Guided Study Path • Finalize Your Plan / Begin Learning
 
+<details>
+
+<summary>Assignment details</summary>
+
 #### Part 1: Finalize your learning plan
 
 Your learning plan was due last night, and I'll review it and reach out to you
@@ -181,3 +186,5 @@ note your questions in your documentation and/or bring them to class or student 
 Complete Part 4 above to get GitHub Copilot Pro set up. Even though you're on
 the self-guided path, we'll explore AI-assisted coding together in class as
 these tools might support your independent project development, too.
+
+</details>
