@@ -20,8 +20,8 @@ of the Arts • Spring 2026
 
 | Date | Week | Assignment |
 | :--- | :--- | :--- |
-| Jan 26 | Week 1 | [Pseudocoding / Looping Animations OR Design a Learning Plan](https://github.com/ellennickles/code-your-way-s26/blob/main/week1/README.md) |
-| Feb 2 | Week 2 | Debugging / Visual Studio Code / Unpredictability |
+| Jan 26 | Week 1 | [Pseudocoding / Encoding / Looping Animations OR Design a Learning Plan](https://github.com/ellennickles/code-your-way-s26/blob/main/week1/README.md) |
+| Feb 2 | Week 2 | Debugging / Decoding / Visual Studio Code / Unpredictability |
 | Feb 9 | Week 3 | GitHub Copilot / Iterative Patterns 1 |
 | Feb 16 | No Class | Presidents’ Day |
 | Feb 17 | Week 4 | (Tuesday) Version Control 1 / Iterative Patterns 2 |
