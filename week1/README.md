@@ -22,6 +22,10 @@
 
 <summary>Assignment details</summary>
 
+#### Description
+
+Work through weekly creative exercises in p5.js exploring techniques like pseudocode, loops, and transformations. This path makes sense if you want structured, guided practice with shared activities and time to build foundational coding skills. You'll participate in all class discussions and learn shared skills like version control and debugging strategies alongside everyone else.
+
 #### Part 1: Set up
 
 Make sure you have a blog, Google Doc, Notion, or some place online to document your work and reflect on your process this semester.
