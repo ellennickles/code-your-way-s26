@@ -81,7 +81,7 @@ your own problem-solving process.
 
 #### Part 3: Re/Code
 
-- Option 1: Create a loading icon (aka preloader or throbber) animation with
+- **Option 1:** Create a loading icon (aka preloader or throbber) animation with
   code. Find and recode an existing one (different from the ones above) or
   design your own.
   Where do you often see these types of icons? Think of all the loading and
@@ -91,11 +91,11 @@ your own problem-solving process.
   communicate or hide? What aspect of experiencing time on a machine do you want
   to explore or express? (Source: [Aesthetic
   Programming](https://aesthetic-programming.net/))
-- Option 2: Recode one of Rafaël Rozendaal's [artworks on the
+- **Option 2:** Recode one of Rafaël Rozendaal's [artworks on the
   internet](https://www.newrafael.com/internet) or design a similar one.
-- Make a plan with pseudocode. Write / draw an outline to guide you through the
+- Make a plan with pseudocode. Write or draw an outline to guide you through the
   steps. It’s okay if you pivot from the original plan, the idea is to apply
-  this approach to reverse engineer the algorithm.
+  this approach to reverse-engineer the algorithm.
 - Practice reading and writing your own code and try not use an AI to help you;
   we'll get there soon enough. Remember that this course values critical
   reflection of process over product.
