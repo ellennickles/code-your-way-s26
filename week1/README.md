@@ -140,6 +140,7 @@ your own problem-solving process.
 
 <summary>Assignment details</summary>
 
+#### Description
 If you already have a project idea that requires learning a specific tool—like
 building a portfolio site with HTML/CSS, or working in Python—you can spend
 weeks 1-7 focused on learning that tool instead of the weekly creative
