@@ -6,7 +6,7 @@ approach ([official website](https://primmportal.com/))
 
 _How do artists encode their visions into code? Study their encoding process by reverse-engineering it._
 
-Steps to start reverse engineering sketches:
+Steps to start reverse-engineering sketches:
 
 1. **Run** • Before you look at the source code, run the sketch in full screen
    mode to fully experience its behavior and visual elements. Take note of any
