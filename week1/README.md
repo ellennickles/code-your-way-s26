@@ -2,8 +2,8 @@
 
 ## References
 
-- [Class
-  Slides](https://docs.google.com/presentation/d/1RqCj37stIpNBUiU0NDPGm3jOSBaIGKoq7gdVHAKQXF0/edit?slide=id.g1c934866441_0_45#slide=id.g1c934866441_0_45)
+- Class
+  Slides (link to be added)
 - (One approach) “Chapter 9 The Pseudocode Programming Process,” [Code
   Complete](https://bobcat.library.nyu.edu/primo-explore/fulldisplay?docid=nyu_aleph005835845&context=L&vid=NYU&lang=en_US&search_scope=all&adaptor=Local%20Search%20Engine&isFrbr=true&tab=all&query=any,contains,code%20complete&sortby=date&facet=frbrgroupid,include,1147872474&offset=0),
   2nd Edition, by Steve McConnell (NYU Library online access > wait for O'Reilly
