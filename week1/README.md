@@ -42,7 +42,7 @@ to reverse engineer these sketches:
 - [Encode 5](https://editor.p5js.org/enickles/full/r_6gG2Nc8)
 
 **Note on AI:** During the Encode process, feel free to use AI and the resources
-below to clarify unfamiliar concepts or syntax (see Step 3). For your Re/Code
+below to clarify unfamiliar concepts or syntax (see Step 3 of the Encode process). For your Re/Code
 sketch in Part 3 below, try working without AI. The goal there is to practice
 your own problem-solving process.
 
