@@ -160,7 +160,7 @@ need to have everything figured out yet, we can refine this together. For now, s
 
 - **Project idea** • What do you want to build in the second half of the semester? A
   brief description is fine.
-- **Tools to learn • What language, framework, or tool do you need to learn to
+- **Tools to learn** • What language, framework, or tool do you need to learn to
    build it?
 - **Resources** • What tutorials, courses, or documentation will you use? Find and
    link to at least 2-3 starting points. Video tutorials, written guides, and
