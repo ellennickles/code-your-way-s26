@@ -158,15 +158,15 @@ your work and reflect on your process this semester.
 Start researching and outlining a plan for what you want to learn. You don't
 need to have everything figured out yet, we can refine this together. For now, start thinking through:
 
-- Project idea • What do you want to build in the second half of the semester? A
+- **Project idea** • What do you want to build in the second half of the semester? A
   brief description is fine.
-- Tools to learn • What language, framework, or tool do you need to learn to
+- **Tools to learn • What language, framework, or tool do you need to learn to
    build it?
-- Resources • What tutorials, courses, or documentation will you use? Find and
+- **Resources** • What tutorials, courses, or documentation will you use? Find and
    link to at least 2-3 starting points. Video tutorials, written guides, and
    official documentation are all good options. If you're not sure where to start, then I'm happy to help you identify resources.
-- Weekly milestones • How might you break this learning into roughly 6 weeks?
-   This can be rough—we'll adjust as you go.
+- **Weekly milestones** • How might you break this learning into roughly 6 weeks?
+   This can be rough, and we'll adjust as you go.
 
 #### Part 3: Document
 
