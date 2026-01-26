@@ -2,8 +2,7 @@
 
 ## References
 
-- Class
-  Slides (link to be added)
+- [Class Slides](https://docs.google.com/presentation/d/1VlEklbsRe9TizS9xxOcW1oUDoi40x1s5Px_iadi4Wr0/edit?slide=id.g1c934866441_0_3#slide=id.g1c934866441_0_3)
 - (One approach) “Chapter 9 The Pseudocode Programming Process,” [Code
   Complete](https://bobcat.library.nyu.edu/primo-explore/fulldisplay?docid=nyu_aleph005835845&context=L&vid=NYU&lang=en_US&search_scope=all&adaptor=Local%20Search%20Engine&isFrbr=true&tab=all&query=any,contains,code%20complete&sortby=date&facet=frbrgroupid,include,1147872474&offset=0),
   2nd Edition, by Steve McConnell (NYU Library online access > wait for O'Reilly
@@ -38,8 +37,7 @@ to reverse engineer these sketches:
 
 - [Ellen's Encode Demo](https://editor.p5js.org/enickles/sketches/hlAgapATC) of
   Vera Molnár's Tête-Bêche
-- [Encode 1](https://editor.p5js.org/enickles/full/VaGWbXk_c) (class example,
-  complete only if you still have questions)
+- [Encode 1](https://editor.p5js.org/enickles/full/VaGWbXk_c) 
 - [Encode 2](https://editor.p5js.org/enickles/full/3pFmuocV-)
 - [Encode 3](https://editor.p5js.org/enickles/full/fzcM-NjHz)
 - [Encode 4](https://editor.p5js.org/enickles/full/Lfpvl2Rsp)
