@@ -154,31 +154,34 @@ individually this week with feedback and any questions. In the meantime, go
 ahead and start working through your resources and don't wait for my approval to
 begin.
 
-If you haven't submitted your plan yet, please do so as soon as possible so we can get you on track.
+If you haven't submitted your plan yet, please do so as soon as possible so you
+can get started.
 
 #### Part 2: Start learning!
 
 Dive into your resources and begin working through them. This week, aim to:
 
-- Complete the first section or module of your chosen tutorial or course
+- Complete the first section or module of your chosen tutorial or course or
+  resource.
 - Get your development environment set up if you haven't already (this might
   include installing software, creating accounts, or configuring tools specific
-  to your technology)
+  to your technology).
 - Depending on your goal(s), try a small exercise or experiment to test what
-  you're learning
+  you're learning.
 
-Don't worry about moving fast. Focus on building understanding. If you get stuck,
-note your questions in your documentation and/or bring them to class or student hours.
+Don't worry about moving fast. Focus on building understanding. If you get
+stuck, note your questions in your documentation and/or bring them to class or
+student hours.
 
 #### Part 3: Document
 
 - Documenting your weekly progress and reflections will be valuable for tracking
   your growth. Use this outline to guide your documentation:
-  - What did you work on this week? (topics, exercises, mini-projects, etc.)
-  - What clicked? (concepts or techniques that made sense or felt useful)
-  - What was challenging? (any points of confusion, how you approached them, and
+  - **What did you work on this week?** (topics, exercises, mini-projects, etc.)
+  - **What clicked?** (concepts or techniques that made sense or felt useful)
+  - **What was challenging?** (any points of confusion, how you approached them, and
   whether you found a solution or decided to revisit them later)
-  - What’s next? (next steps and any lingering questions to explore)
+  - **What’s next?** (next steps and any lingering questions to explore)
 - [Submit here](https://forms.gle/HaUJ7Mg74TJHxrJe8)
 
 #### Part 4: (FOR EVERYONE) Prepare for next week (plan ahead—this might take a few days!)
