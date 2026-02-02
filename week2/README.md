@@ -149,10 +149,10 @@ While a free version of Copilot ([Copilot Free](https://docs.github.com/en/copil
 
 #### Part 1: Finalize your learning plan
 
-Your learning plan was due last night, and I'll review it and reach out to you
-individually this week with feedback and any questions. In the meantime, go
-ahead and start working through your resources and don't wait for my approval to
-begin.
+Your learning plan was due last night, and and if we haven't already discussed 
+your plan in a meeting, then I'll reach out to you this week with feedback and any questions. 
+In the meantime, go ahead and start working through your resources and don't wait for my 
+approval to begin.
 
 If you haven't submitted your plan yet, please do so as soon as possible so you
 can get started.
