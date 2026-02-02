@@ -2,7 +2,7 @@
 
 ## References
 
-- Class Slides to be added
+- [Class Slides](https://docs.google.com/presentation/d/1KN0Y5nWln_UndS2qTcIMfWqcrwM7DJT5M-iTw4MCaZY/edit?slide=id.g2017bbbcb6e_0_71#slide=id.g2017bbbcb6e_0_71)
 - [In-class code tracing example](https://editor.p5js.org/enickles/sketches/lC6D3A-1w) from Ellen
 - [A Brief Introduction to Debugging Parts
   1-4](https://vimeo.com/channels/debugging) (p5 is not mentioned, but these
