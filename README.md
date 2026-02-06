@@ -22,12 +22,12 @@ of the Arts • Spring 2026
 | :--- | :--- | :--- |
 | Jan 26 | Week 1 | [Pseudocoding / Looping Animations OR Design a Learning Plan]() |
 | Feb 2 | Week 2 | Debugging / Visual Studio Code / Unpredictability |
-| Feb 9 | Week 3 | GitHub Copilot / Iterative Patterns 1 |
+| Feb 9 | Week 3 | Version Control 1 / Iterative Patterns 1 |
 | Feb 16 | No Class | Presidents’ Day |
-| Feb 17 | Week 4 | (Tuesday) Version Control 1 / Iterative Patterns 2 |
-| Feb 23 | Week 5 | Version Control 2 / Parametric Geometries |
-| Mar 2 | Week 6 | Version Control 3 / Refactoring |
-| Mar 9 | Week 7 | Version Control 4 / Project Planning |
+| Feb 17 | Week 4 | (Tuesday) Version Control 2 / Iterative Patterns 2 |
+| Feb 23 | Week 5 | Version Control 3 / Parametric Geometries |
+| Mar 2 | Week 6 | Version Control 4 / Refactoring |
+| Mar 9 | Week 7 | Github Copilot / Project Planning |
 | Mar 16 | No Class | Spring Break |
 
 ### Part 2: Independent Project Development

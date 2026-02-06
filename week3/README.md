@@ -3,32 +3,17 @@
 ## References
 
 - Class Slides (link to be added)
-- Pair Programming IRL: [Pair
-    Programming](http://www.extremeprogramming.org/rules/pair.html) (the source)
-- Pair Programming with AI
-  - [This A.I. Tool Is Going Viral. Five Ways People Are Using
-    It.](https://www.nytimes.com/2026/01/23/technology/claude-code.html?unlocked_article_code=1.IVA.tQJT.1eKDRe7x0z5N&smid=url-share)
-    by Natallie Rocha, NYTimes
-  - [Chatting with/about
-    Code](https://p5js.org/tutorials/criticalai1-chatting-with-about-code/) by
-    Sarah Ciston, Emily Martinez (mentor), Minne Atairu (advisor) | Part 1 in a
-    series of four p5 Reference tutorials that focus on using AI creatively and
-    thoughtfully
-  - GitHub Copilot
-    - Visual Studio Code Docs: [GitHub Copilot in VS Code](https://code.visualstudio.com/docs/copilot/overview)
-    - GitHub Docs
-      - [Best practices for using GitHub
-        Copilot](https://docs.github.com/en/copilot/get-started/best-practices)
-      - [Prompt engineering for GitHub Copilot
-        Chat](https://docs.github.com/en/copilot/concepts/prompting/prompt-engineering)
-      - [Tips and tricks for Copilot in VS
-        Code](https://code.visualstudio.com/docs/copilot/copilot-tips-and-tricks)
-      - [Quick Video Tutorials](https://github.com/features/copilot/tutorials)
-      - Blog
-        [How to write better prompts for GitHub
-        Copilot](https://github.blog/developer-skills/github/how-to-write-better-prompts-for-github-copilot/)
-      - Blog [Using GitHub Copilot in your IDE: Tips, tricks, and best
-        practices](https://github.blog/developer-skills/github/how-to-use-github-copilot-in-your-ide-tips-tricks-and-best-practices/)
+- [How AI assistance impacts the formation of coding
+  skills](https://www.anthropic.com/research/AI-assistance-coding-skills), a
+  study by Anthropic
+- [Management as AI superpower: Thriving in a world of agentic
+  AI](https://www.oneusefulthing.org/p/management-as-ai-superpower?publication_id=1180644&post_id=185639446&isFreemail=true&r=1p9zb5&triedRedirect=true)
+  by Ethan Mollick
+- Version Control Part 1: Command Line Foundations
+  - [Command Line
+  Introduction](https://github.com/ellennickles/code-your-way-s26/blob/main/version-control-guides/commandline.md)
+  - [Tip and
+    Tricks](https://github.com/ellennickles/code-your-way-s26/blob/main/version-control-guides/tips-and-tricks.md)
 
 ## Assignment
 
@@ -116,16 +101,7 @@ and analyze the input code and predict the visual output:
     - [Fiona W](https://editor.p5js.org/enickles/full/H-6TkHyHX)
     - [Yian](https://editor.p5js.org/enickles/full/2MvpYKpF1)
 
-#### Part 3: AI Experimentation
-
-- Extend your code form Part 2 with AI and ask Copilot to introduce a new
-  feature to your sketch, such as:
-  - Adding animation or interaction
-  - Introducing random variations in shape, size, or color
-  - Transforming the pattern(s) using rotations or translations
-- Try our prompting best practices from class.
-
-#### Part 4: Document
+#### Part 3: Document
 
 - Document your work. Keep working in VS Code, and paste any final code to the
   p5 web editor so you can link to your sketches in your documentation. I know
