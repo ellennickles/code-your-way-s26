@@ -27,7 +27,7 @@ of the Arts • Spring 2026
 | Feb 17 | Week 4 | (Tuesday) Version Control 2 / Iterative Patterns 2 |
 | Feb 23 | Week 5 | Version Control 3 / Parametric Geometries |
 | Mar 2 | Week 6 | Version Control 4 / Refactoring |
-| Mar 9 | Week 7 | Github Copilot / Project Planning |
+| Mar 9 | Week 7 | Github Copilot + AI Tools / Project Planning |
 | Mar 16 | No Class | Spring Break |
 
 ### Part 2: Independent Project Development
