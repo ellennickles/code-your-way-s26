@@ -6,9 +6,6 @@
 - [How AI assistance impacts the formation of coding
   skills](https://www.anthropic.com/research/AI-assistance-coding-skills), a
   study by Anthropic
-- [Management as AI superpower: Thriving in a world of agentic
-  AI](https://www.oneusefulthing.org/p/management-as-ai-superpower?publication_id=1180644&post_id=185639446&isFreemail=true&r=1p9zb5&triedRedirect=true)
-  by Ethan Mollick
 - Version Control Part 1: Command Line Foundations
   - [Command Line
   Introduction](https://github.com/ellennickles/code-your-way-s26/blob/main/version-control-guides/commandline.md)
@@ -25,10 +22,11 @@
 
 #### Command Line Scavenger Hunt Assignment
 
-- Keep building your muscle memory with the command line and design a command
-  line scavenger hunt for your classmates. Choose a creative theme—like a spaceship, castle, haunted house, or any setting you
-  like. Your hunt will help others practice navigating directories and files
-  while uncovering treasures and maybe a few surprises!
+- In class we practiced navigating directories with the castle scavenger hunt. Now it's your turn to create one! Keep building your muscle memory with the
+command line and design a command line scavenger hunt for your classmates.
+Choose a creative theme—like a spaceship, castle, haunted house, or any
+setting you like. Your hunt will help others practice navigating directories
+and files while uncovering treasures and maybe a few surprises!
 - Minimum requirements
   - Create **4 to 6 rooms** (directories/folders) for your scavenger hunt
   - Hide at least **2 treasures** (text files with clues, story pieces, or
@@ -37,8 +35,9 @@
     files or folders with misleading names to throw off your classmates and keep
     them on their toes.
 - We’ll play each other’s scavenger hunts in class next week.
-- Title the main directory with your name and it to our Google Drive folder
-  here: [Week 3 • Command line scavenger hunts](https://drive.google.com/drive/u/1/folders/1JFBCODxk6f6nRIigIJfym8kzRVBO4VZP)
+- Title the main directory with your first name (e.g. ellen-hunt) and it to our
+  Google Drive folder here: [Week 3 • Command line scavenger
+  hunts](https://drive.google.com/drive/u/1/folders/1JFBCODxk6f6nRIigIJfym8kzRVBO4VZP)
 
 
 ### Creative Exercises Path • Iterative Patterns 1
