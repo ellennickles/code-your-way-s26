@@ -16,8 +16,7 @@ Tarakajian's](https://github.com/catarak) [An introduction to the command line](
   - [Navigation](#navigation)
   - [Directories and files](#directories-and-files)
   - [Tips](#tips)
-- [DO NOT BLINDLY RUN COMMANDS THAT YOU FIND ON THE INTERNET OR FROM AI](#do-not-blindly-run-commands-that-you-find-on-the-internet-or-from-AI)
-- [Cheat sheet](#cheat-sheet)
+- [DO NOT BLINDLY RUN COMMANDS THAT YOU FIND ON THE INTERNET OR FROM AI](#do-not-blindly-run-commands-that-you-find-on-the-internet-or-from-ai)
 
 ## Graphical user interface
 
@@ -25,9 +24,9 @@ You're probably familiar with interacting with your computer using its Graphical
 
 ## Command line interface
 
-You can, however, interface with your computer only using text. You write commands using text, and the computer will execute those commands. Sometimes it writes text back at you, or it might open an application, or produce a sound—-it will do whatever you told it to do. You can write these commands to your computer using the **command line**, also known as the command line interface, or CLI.
+You can, however, interface with your computer only using text. You write commands using text, and the computer will execute those commands. Sometimes it writes text back at you, or it might open an application, or produce a sound—it will do whatever you told it to do. You can write these commands to your computer using the **command line**, also known as the command line interface, or CLI.
 
-![Screenshot of macOS terminal window](https://github.com/ellennickles/code-your-way-s23/blob/main/version-control-guides/assets/commandline.png)
+![Screenshot of macOS terminal window](https://github.com/ellennickles/code-your-way-s26/blob/main/version-control-guides/assets/commandline.png)
 
 **Why use the command line?** You may find the command line difficult or tedious
 to use. However, it is an essential tool to developing software and important
@@ -37,14 +36,12 @@ do new things with your computer that aren't even possible just using the GUI!
 
 **Beware!** It also gives you the power to break your computer in major ways—with
 great power comes great responsibility. See [DO NOT BLINDLY RUN COMMANDS THAT YOU FIND ON THE INTERNET OR FROM
-  AI](#do-not-blindly-run-commands-that-you-find-on-the-internet-or-from-AI).
+  AI](#do-not-blindly-run-commands-that-you-find-on-the-internet-or-from-ai).
 
 A **terminal** is a command line interface tool that comes pre-installed on
-computers: [Terminal
-(Mac)](https://support.apple.com/guide/terminal/open-or-quit-terminal-apd5265185d-f365-44cb-8b09-71a064a42125/mac)
-or [Terminal or Command Prompt
-(Windows)](https://www.lifewire.com/how-to-open-command-prompt-2618089).
+computers: [Terminal (Mac)](https://support.apple.com/guide/terminal/open-or-quit-terminal-apd5265185d-f365-44cb-8b09-71a064a42125/mac) or [PowerShell (Windows)](https://learn.microsoft.com/en-us/powershell/scripting/windows-powershell/starting-windows-powershell).
 
+**Note for Windows users:** Use PowerShell rather than the older Command Prompt. PowerShell supports all the commands in this guide and is the modern standard for Windows command line work.
 
 ## Getting started
 
@@ -160,6 +157,8 @@ started:
 
 ### Navigation
 
+**Pro tip:** Use `pwd` frequently when you're learning. It's like checking "You Are Here" on a map.
+
 | Command      | Description                                | Example      |
 | ------------ | -------------------------------------------|------------- |
 | `pwd`        | Returns the path to the current directory | `$ pwd`      |
@@ -173,6 +172,7 @@ started:
 | `cd ..`      | Move up one level to the parent directory | `$ cd ..` |
 | `cd ../..`   | Move up two levels | `$ cd ../..` |
 | `cd ~`       | Return to the home directory | `$ cd ~` |
+| `cd` (no argument) | Returns you to home directory (same as `cd ~`) | `$ cd` |
 
 ### Directories and files
 
@@ -201,11 +201,9 @@ started:
 ## DO NOT BLINDLY RUN COMMANDS THAT YOU FIND ON THE INTERNET OR FROM AI
 
 Don't blindly copy and paste commands into the terminal that you find on Stack
-Overflow or from ChatGPT, especially ones that contain `sudo` or `rm`. This is a
-great way to mess up your computer! Take a moment to try to understand what is
-happening, or why someone is suggesting it, or look at a few different
-suggestions before choosing one.
+Overflow or from ChatGPT, especially ones that contain `sudo` or `rm -rf`. This is a
+great way to mess up your computer! For example, `rm -rf /` could delete everything on your system.
 
-## Cheat sheet
+Take a moment to try to understand what is happening, or why someone is suggesting it, or look at a few different suggestions before choosing one.
 
-[Command Line Cheat Sheet](https://www.git-tower.com/blog/command-line-cheat-sheet/) by Tobias Günther
+

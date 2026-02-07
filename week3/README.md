@@ -20,7 +20,28 @@
 - Due next Monday night, Feb 16.
 - No class on Monday (it's Presidents’ Day)! We will meet on Tuesday, Feb 17.
 
-### Creative Exercises Path • GitHub Copilot / Iterative Patterns 1
+
+### Everyone • Version Control Part 1: Command Line Foundation
+
+#### Command Line Scavenger Hunt Assignment
+
+- Keep building your muscle memory with the command line and design a command
+  line scavenger hunt for your classmates. Choose a creative theme—like a spaceship, castle, haunted house, or any setting you
+  like. Your hunt will help others practice navigating directories and files
+  while uncovering treasures and maybe a few surprises!
+- Minimum requirements
+  - Create **4 to 6 rooms** (directories/folders) for your scavenger hunt
+  - Hide at least **2 treasures** (text files with clues, story pieces, or
+    codes) and **1 danger** (a spooky twist, red herring, or warning)
+  - Maybe add extra challenges, like secret rooms (nested folders) or decoy
+    files or folders with misleading names to throw off your classmates and keep
+    them on their toes.
+- We’ll play each other’s scavenger hunts in class next week.
+- Title the main directory with your name and it to our Google Drive folder
+  here: [Week 3 • Command line scavenger hunts](https://drive.google.com/drive/u/1/folders/1JFBCODxk6f6nRIigIJfym8kzRVBO4VZP)
+
+
+### Creative Exercises Path • Iterative Patterns 1
 <details>
 
 <summary>Assignment details</summary>
