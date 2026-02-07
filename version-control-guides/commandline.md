@@ -180,9 +180,9 @@ started:
 | ------------ | -------------------------------------------|------------- |
 | `mkdir`      | Creates a directory in the current directory | `$ mkdir myproject` |
 | `mkdir <path/to/directory>` | Creates a directory with a given path | `$ mkdir /Users/codeyourway/Desktop/myproject` |
-| `touch <filename.extension>` | Create a file in the current directory | `$ touch sketch.js` |
+| `touch <filename.extension>` (Mac) or `new-item <filename.extension>` (Windows) | Create a file in the current directory | `$ touch sketch.js` or `$ new-item sketch.js` |
 | `cat <filename.extension>` | Prints the contents of a file | `$ cat sketch.js` |
-| `nano <filename.extension>` | Edit the contents of a file in default editor | `$ nano sketch.js` |
+| `nano <filename.extension>` (Mac) or `notepad <filename.extension>` (Windows) | Edit the contents of a file in default editor | `$ nano sketch.js` or `$ notepad sketch.js` |
 | `mv <currentname.extension> <newname.extension>` | Renames the file | `$ mv sketch.js script.js` |
 | `cp <currentfile.extension> <filecopy.extension>` | Copies the contents of a file to a new one with a different name | `$ cp one.js two.js` |
 
