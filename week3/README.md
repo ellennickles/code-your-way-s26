@@ -170,8 +170,6 @@ Continue documenting your weekly progress and reflections:
 - What was challenging? (any points of confusion, how you approached them, and
   whether you found a solution or decided to revisit them later)
 - What's next? (next steps and any lingering questions to explore)
-- If you tried Copilot: How did it go? Was it helpful, limiting, or somewhere in
-  between?
 - [Submit here](https://forms.gle/HaUJ7Mg74TJHxrJe8)
 
 </details>
