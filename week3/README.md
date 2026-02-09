@@ -161,18 +161,7 @@ Keep working through your resources and building on last week's progress. This w
   advanced, or not what you expected—that's useful information! Make a note of
   it and reach out to me so we can find alternatives together.
 
-#### Part 2: Experiment with GitHub Copilot (Optional)
-
-Since we're exploring AI-assisted coding in class this week, consider trying GitHub Copilot with your own project:
-
-- Use Copilot to help explain unfamiliar code or concepts in your learning
-  materials.
-- Try asking it to help debug something you're stuck on.
-- Experiment with having it extend or modify code you've written.
-
-Reflect on whether and how this tool might support your independent learning. It's okay if it doesn't fit your workflow or values—that's worth noting too.
-
-#### Part 3: Document
+#### Part 2: Document
 
 Continue documenting your weekly progress and reflections:
 
