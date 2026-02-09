@@ -36,7 +36,7 @@ and files while uncovering treasures and maybe a few surprises!
     files or folders with misleading names to throw off your classmates and keep
     them on their toes.
 - We’ll play each other’s scavenger hunts in class next week.
-- Title the main directory with your first name (e.g. ellen-hunt) and it to our
+- Title the main directory with your first name (e.g. ellen-hunt) and upload it to our
   Google Drive folder here: [Week 3 • Command line scavenger
   hunts](https://drive.google.com/drive/u/1/folders/1JFBCODxk6f6nRIigIJfym8kzRVBO4VZP)
 
@@ -104,7 +104,6 @@ and analyze the input code and predict the visual output:
   welcome to work from inspiration you find anywhere! Be sure to consider all
   the possible visual characteristics to modify. Animation and interaction are
   encouraged for even more variation.
-- **Important:** For this part, **do not** use GitHub Copilot. Focus on applying what you've learned independently to deepen your coding skills.
 - Possible inspiration:
   - Featured artists in the [Class Slides](https://docs.google.com/presentation/d/1lCWSDaCa-i4oP0ofDD6wIorp6UoDgdJOxW_OsnJ76RI/edit?slide=id.g205614bc955_0_0#slide=id.g205614bc955_0_0)
   - [Saskia Freeke](https://sasj.nl/portfolio/)
@@ -127,18 +126,11 @@ and analyze the input code and predict the visual output:
 - Document your work. Keep working in VS Code, and paste any final code to the
   p5 web editor so you can link to your sketches in your documentation. I know
   this is redundant, but it's still the easiest way to share. Link
-  to your sketches from Parts 1-3.
-- Reflect on the discoveries and challenges you encountered during the exercises
-  **with and without AI**:
+  to your sketches from Parts 1-2.
+- Reflect on the discoveries and challenges you encountered during the exercises:
   - What graphic or animation effects are most pleasing to you?
   - Where did you get stuck, and what steps did you take to troubleshoot?
-  - Were there moments where you were tempted to use Copilot but didn’t?
-  - What did you learn from coding independently in Part 2?
-  - What was your process for extending your code with GitHub Copilot?
-  - Reflect on your discoveries and challenges, noting where AI was helpful or
-    limiting.
-  - How did its contributions differ from your independent version?
-  - Were there any unexpected outcomes?
+  - Did any errors or bugs lead you to a deeper understanding of how something works?
 - [Submit here](https://forms.gle/HaUJ7Mg74TJHxrJe8)
 
 </details>
