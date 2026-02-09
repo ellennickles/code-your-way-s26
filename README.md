@@ -47,17 +47,17 @@ of the Arts • Spring 2026
 ### Contents
 
 - [Course
-  Description](https://github.com/ellennickles/code-your-way-s26#course-description)
+  Description](https://github.com/ellennickles/code-your-way-s26?tab=readme-ov-file#course-description)
 - [Learning
-  Objectives](https://github.com/ellennickles/code-your-way-s26#learning-objectives)
-- [Format](https://github.com/ellennickles/code-your-way-s26#format)
+  Objectives](https://github.com/ellennickles/code-your-way-s26?tab=readme-ov-file#learning-objectives)
+- [Format](https://github.com/ellennickles/code-your-way-s26?tab=readme-ov-file#format)
 - [Community
-  Guidelines](https://github.com/ellennickles/code-your-way-s26#community-guidelines)
-- [Communication and Support](https://github.com/ellennickles/code-your-way-s26#communication-and-support)
+  Guidelines](https://github.com/ellennickles/code-your-way-s26?tab=readme-ov-file#community-guidelines)
+- [Communication and Support](https://github.com/ellennickles/code-your-way-s26?tab=readme-ov-file#communication-and-support)
 - [Assessment and
-  Evaluation](https://github.com/ellennickles/code-your-way-s26#assessment-and-evaluation)
-- [Policies](https://github.com/ellennickles/code-your-way-s26#policies)
-- [Statements](https://github.com/ellennickles/code-your-way-s26#statements)
+  Evaluation](https://github.com/ellennickles/code-your-way-s26?tab=readme-ov-file#assessment-and-evaluation)
+- [Policies](https://github.com/ellennickles/code-your-way-s26?tab=readme-ov-file#policies)
+- [Statements](https://github.com/ellennickles/code-your-way-s26?tab=readme-ov-file#statements)
 
 ### Course Description
 
