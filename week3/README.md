@@ -106,7 +106,7 @@ and analyze the input code and predict the visual output:
   encouraged for even more variation.
 - **Important:** For this part, **do not** use GitHub Copilot. Focus on applying what you've learned independently to deepen your coding skills.
 - Possible inspiration:
-  - Featured artists in the [Class Slides](https://docs.google.com/presentation/d/1lCWSDaCa-i4oP0ofDD6wIorp6UoDgdJOxW_OsnJ76RI/edit?slide=id.g3c26dcdbd73_0_16#slide=id.g3c26dcdbd73_0_16)
+  - Featured artists in the [Class Slides](https://docs.google.com/presentation/d/1lCWSDaCa-i4oP0ofDD6wIorp6UoDgdJOxW_OsnJ76RI/edit?slide=id.g205614bc955_0_0#slide=id.g205614bc955_0_0)
   - [Saskia Freeke](https://sasj.nl/portfolio/)
   - [Anna Carreras](https://www.annacarreras.com/) |
     [Instagram](https://www.instagram.com/annaluciacodes)
