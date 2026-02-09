@@ -1,9 +1,8 @@
-# Week 1 • Getting Started
+# Week 1
 
 ## References
 
-- [Class
-  Slides](https://docs.google.com/presentation/d/1RqCj37stIpNBUiU0NDPGm3jOSBaIGKoq7gdVHAKQXF0/edit?slide=id.g1c934866441_0_45#slide=id.g1c934866441_0_45)
+- [Class Slides](https://docs.google.com/presentation/d/1VlEklbsRe9TizS9xxOcW1oUDoi40x1s5Px_iadi4Wr0/edit?slide=id.g1c934866441_0_3#slide=id.g1c934866441_0_3)
 - (One approach) “Chapter 9 The Pseudocode Programming Process,” [Code
   Complete](https://bobcat.library.nyu.edu/primo-explore/fulldisplay?docid=nyu_aleph005835845&context=L&vid=NYU&lang=en_US&search_scope=all&adaptor=Local%20Search%20Engine&isFrbr=true&tab=all&query=any,contains,code%20complete&sortby=date&facet=frbrgroupid,include,1147872474&offset=0),
   2nd Edition, by Steve McConnell (NYU Library online access > wait for O'Reilly
@@ -16,7 +15,15 @@
 
 ## Assignment due the night before our next class
 
-### Creative Exercises Path • Pseudocoding / Looping Animations
+### Creative Exercises Path • Pseudocoding / Encoding / Looping Animations
+
+<details>
+
+<summary>Assignment details</summary>
+
+#### Description
+
+Work through weekly creative exercises in p5.js exploring techniques like pseudocode, loops, and transformations. This path makes sense if you want structured, guided practice with shared activities and time to build foundational coding skills. You'll participate in all class discussions and learn shared skills like version control and debugging strategies alongside everyone else.
 
 #### Part 1: Set up
 
@@ -30,15 +37,14 @@ to reverse engineer these sketches:
 
 - [Ellen's Encode Demo](https://editor.p5js.org/enickles/sketches/hlAgapATC) of
   Vera Molnár's Tête-Bêche
-- [Encode 1](https://editor.p5js.org/enickles/full/VaGWbXk_c) (class example,
-  complete only if you still have questions)
+- [Encode 1](https://editor.p5js.org/enickles/full/VaGWbXk_c) 
 - [Encode 2](https://editor.p5js.org/enickles/full/3pFmuocV-)
 - [Encode 3](https://editor.p5js.org/enickles/full/fzcM-NjHz)
 - [Encode 4](https://editor.p5js.org/enickles/full/Lfpvl2Rsp)
 - [Encode 5](https://editor.p5js.org/enickles/full/r_6gG2Nc8)
 
 **Note on AI:** During the Encode process, feel free to use AI and the resources
-below to clarify unfamiliar concepts or syntax (see Step 3). For your Re/Code
+below to clarify unfamiliar concepts or syntax (see Step 3 of the Encode process). For your Re/Code
 sketch in Part 3 below, try working without AI. The goal there is to practice
 your own problem-solving process.
 
@@ -77,7 +83,7 @@ your own problem-solving process.
 
 #### Part 3: Re/Code
 
-- Option 1: Create a loading icon (aka preloader or throbber) animation with
+- **Option 1:** Create a loading icon (aka preloader or throbber) animation with
   code. Find and recode an existing one (different from the ones above) or
   design your own.
   Where do you often see these types of icons? Think of all the loading and
@@ -87,11 +93,11 @@ your own problem-solving process.
   communicate or hide? What aspect of experiencing time on a machine do you want
   to explore or express? (Source: [Aesthetic
   Programming](https://aesthetic-programming.net/))
-- Option 2: Recode one of Rafaël Rozendaal's [artworks on the
+- **Option 2:** Recode one of Rafaël Rozendaal's [artworks on the
   internet](https://www.newrafael.com/internet) or design a similar one.
-- Make a plan with pseudocode. Write / draw an outline to guide you through the
+- Make a plan with pseudocode. Write or draw an outline to guide you through the
   steps. It’s okay if you pivot from the original plan, the idea is to apply
-  this approach to reverse engineer the algorithm.
+  this approach to reverse-engineer the algorithm.
 - Practice reading and writing your own code and try not use an AI to help you;
   we'll get there soon enough. Remember that this course values critical
   reflection of process over product.
@@ -128,8 +134,15 @@ your own problem-solving process.
   code-related techniques would you like to explore and practice more?
 - [Submit here](https://forms.gle/HaUJ7Mg74TJHxrJe8)
 
+</details>
+
 ### Self-Guided Study Path • Design a Learning Plan
 
+<details>
+
+<summary>Assignment details</summary>
+
+#### Description
 If you already have a project idea that requires learning a specific tool—like
 building a portfolio site with HTML/CSS, or working in Python—you can spend
 weeks 1-7 focused on learning that tool instead of the weekly creative
@@ -147,15 +160,15 @@ your work and reflect on your process this semester.
 Start researching and outlining a plan for what you want to learn. You don't
 need to have everything figured out yet, we can refine this together. For now, start thinking through:
 
-- Project idea • What do you want to build in the second half of the semester? A
+- **Project idea** • What do you want to build in the second half of the semester? A
   brief description is fine.
-- Tools to learn • What language, framework, or tool do you need to learn to
+- **Tools to learn** • What language, framework, or tool do you need to learn to
    build it?
-- Resources • What tutorials, courses, or documentation will you use? Find and
+- **Resources** • What tutorials, courses, or documentation will you use? Find and
    link to at least 2-3 starting points. Video tutorials, written guides, and
    official documentation are all good options. If you're not sure where to start, then I'm happy to help you identify resources.
-- Weekly milestones • How might you break this learning into roughly 6 weeks?
-   This can be rough—we'll adjust as you go.
+- **Weekly milestones** • How might you break this learning into roughly 6 weeks?
+   This can be rough, and we'll adjust as you go.
 
 #### Part 3: Document
 
@@ -163,3 +176,5 @@ need to have everything figured out yet, we can refine this together. For now, s
   milestones.
 - What questions do you have? What feels uncertain?
 - [Submit here](https://forms.gle/HaUJ7Mg74TJHxrJe8)
+
+</details>
