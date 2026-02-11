@@ -2,7 +2,8 @@
 
 ## References - UPDATE
 
-- Class Slides - LINK TO BE ADDED
+- [Class
+  Slides](https://drive.google.com/drive/u/1/folders/17ZkMDK7nC9NSmLt99olyEhQt_kHkQymR)
 - [RGB Mixer](https://editor.p5js.org/enickles/full/uB9PBM-w4), [HSB
   Mixer](https://editor.p5js.org/enickles/full/yHAvJuEuB)
 - Review arrays - UPDATE

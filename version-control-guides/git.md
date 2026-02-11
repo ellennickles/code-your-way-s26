@@ -64,9 +64,9 @@ Git provides many benefits which are outlined here in the [About section of this
 
 Open [Terminal
 (Mac)](https://support.apple.com/guide/terminal/open-or-quit-terminal-apd5265185d-f365-44cb-8b09-71a064a42125/mac)
-or [Terminal or Command Prompt
-(Windows)](https://www.lifewire.com/how-to-open-command-prompt-2618089) and
-type:
+or [PowerShell
+(Windows)](https://learn.microsoft.com/en-us/powershell/scripting/windows-powershell/starting-windows-powershell?view=powershell-7.5)
+and type:
 
 ```sh
 $ git --version
@@ -84,10 +84,9 @@ If git is not installed, follow these installation steps:
 
 - [Install on Mac](https://git-scm.com/download/mac)
   - There are many options!
-  - Try first: **Binary installer** from Tim Harper > Version 2.33.0 > Automatic download > Install
   - Type `git --version` again to verify that the installation is complete
   - Keep the installer package with the README.txt for information if you need
-    to resolve any issues
+    to resolve any issues.
 - [Install on Windows](https://git-scm.com/download/win)
   - Try the first link > "Click here to download"
   - Type `git --version` again to verify that the installation is complete
@@ -112,7 +111,8 @@ $ git config --global user.email awesomeperson@example.com
 
 #### Set default text editor
 
-Sometimes Git needs us to type in a message. Let's use Visual Studio Code:
+Sometimes Git needs us to type in a message. Let's automatically open those
+messages in Visual Studio Code:
 
 ```sh
 $  git config --global core.editor "code --wait"
@@ -340,12 +340,21 @@ Type the letter **q** to exit and return to the command line prompt.
 ### Ignore files from Git tracking
 
 You can ignore files in Git by adding a file to your project folder named
-`.gitignore`:
+`.gitignore`.
+
+On a Mac:
 
 ```sh
 $ cd Desktop/myproject
 $ touch .gitignore
 ```
+
+On Windows:
+```sh
+$ cd Desktop/myproject
+$ new-item .gitignore
+```
+
 
 Within `.gitignore` it is common to add:
 
