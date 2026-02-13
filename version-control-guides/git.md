@@ -82,7 +82,12 @@ If Git is installed, the output will look something like this:
 git version 2.33.0
 ```
 
-If you see a version number, you're good — skip ahead to [Section 3: Configure Git](#3-configure-git).
+If you see a version number, you're good — skip ahead to [Section 3: Configure
+Git](#3-configure-git).
+
+If Git is not installed, you will likely see a message like this:
+
+![Screenshot of message indicating the git command is not recognized](https://github.com/ellennickles/code-your-way-s26/blob/main/version-control-guides/assets/no-git-installed.png)
 
 ### 2.2 Install Git
 
@@ -417,9 +422,11 @@ The `git log` command shows your past commits in reverse chronological order (mo
 
    > 💡 **What does `HEAD -> main` mean?** `HEAD` is Git's way of saying "where you are right now." `HEAD -> main` means you're currently at the latest commit on the `main` branch. As you move back in time or switch branches, `HEAD` moves with you.
 
-2. If the log is long, type the spacebar to advance to additional entries.
-   Otherwise, type the letter **q** to exit and return to the command line
-   prompt.
+2. The log opens in a scrollable viewer inside your terminal:
+   - Press **spacebar** to scroll down through older commits if the list is long
+   - Press **q** to exit and return to your command line prompt
+   
+   > 💡 If your terminal seems frozen or unresponsive after running `git log`, you're probably still inside the log viewer — press **q** to get out.
 
 3. For a more compact view that's easier to scan — especially when you need to grab a commit ID — use the `--oneline` flag:
    ```sh
@@ -450,7 +457,13 @@ Some files don't belong in your Git history — system files, secret keys, or la
    new-item .gitignore
    ```
 
-2. Open the `.gitignore` file in VS Code and add the names of any files or folders you want Git to skip. Common entries include:
+2. Open the `.gitignore` file and add the names of any files or folders you want Git to skip. You can open it in whichever editor you're comfortable with:
+
+   - **Mac (nano):** `nano .gitignore`
+   - **Windows (Notepad):** `notepad .gitignore`
+   - **Either (VS Code):** `code .gitignore`
+
+   Common entries to add include:
 
    ```txt
    # the macOS Finder metadata file, usually hidden from users
@@ -484,7 +497,7 @@ One of the most powerful things about Git is the ability to move back to a previ
 | `git revert` | Creates a new commit that undoes a previous one | ❌ No | Shared/collaborative repos |
 | `git checkout -- <file>` | Restores a single file to its last committed state | ❌ No | Recovering one file only |
 
-### 6.2 Recommended: `git reset --hard`
+### 6.2 Recommended as you get started: `git reset --hard`
 
 > ⚠️ **Read this before you run the command:** `git reset --hard` permanently discards any uncommitted changes in your working directory, as well as all commits after the one you reset to. Make sure you've committed everything you want to keep before running this.
 
@@ -645,5 +658,5 @@ When you're happy with what you've built on a branch and want to bring it into `
 - [Git Cheat Sheet (pdf)](https://education.github.com/git-cheat-sheet-education.pdf)
 - [Git Documentation](https://git-scm.com/doc)
 - [Introduction to version control with Git — Microsoft Learn](https://learn.microsoft.com/en-us/training/modules/intro-to-git/)
-- [Undoing Commits & Changes — Atlassian tutorial](https://www.atlassian.com/git/tutorials/undoing-changes)
-- [Oh Shit, Git!?!](https://ohshitgit.com/) — plain-language fixes for common Git mistakes
+- [Oh Shit, Git!?!](https://ohshitgit.com/) — plain-language fixes for common
+  Git mistakes
