@@ -79,7 +79,7 @@ git --version
 If Git is installed, the output will look something like this:
 
 ```sh
-git version 2.33.0
+git version 2.53.0
 ```
 
 If you see a version number, you're good — skip ahead to [Section 3: Configure
