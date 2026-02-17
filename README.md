@@ -24,7 +24,7 @@ of the Arts • Spring 2026
 | Feb 2 | Week 2 | [Debugging / Visual Studio Code / Unpredictability](https://github.com/ellennickles/code-your-way-s26/tree/main/week2) |
 | Feb 9 | Week 3 | [Version Control 1 / Iterative Patterns 1](https://github.com/ellennickles/code-your-way-s26/tree/main/week3) |
 | Feb 16 | No Class | Presidents’ Day |
-| Feb 17 | Week 4 | (Tuesday) Version Control 2 / Iterative Patterns 2 |
+| Feb 17 | Week 4 | (Tuesday) [Version Control 2 / Iterative Patterns 2](https://github.com/ellennickles/code-your-way-s26/tree/main/week4) |
 | Feb 23 | Week 5 | Version Control 3 / Parametric Geometries |
 | Mar 2 | Week 6 | Version Control 4 / Refactoring |
 | Mar 9 | Week 7 | Github Copilot + AI Tools / Project Planning |
