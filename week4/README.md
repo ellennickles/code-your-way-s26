@@ -7,7 +7,7 @@
 - Targeted deletion practice sketches
   - [Practice 1](https://editor.p5js.org/enickles/sketches/FGnEolSve) - variable
     accumulation across rows
-  - [Practice 2](https://editor.p5js.org/enickles/sketches/FGnEolSve) - arrays
+  - [Practice 2](https://editor.p5js.org/enickles/sketches/XKky44qjq) - arrays
     to store and access data
   - [Practice 3](https://editor.p5js.org/enickles/sketches/zjpcD5aaq) - custom
     functions with parameters
