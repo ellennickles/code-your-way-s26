@@ -11,7 +11,6 @@
     to store and access data
   - [Practice 3](https://editor.p5js.org/enickles/sketches/zjpcD5aaq) - custom
     functions with parameters
-- [Joan Truckenbrod: Punch cards to computer](https://vimeo.com/286992423) (video)
 - Version Control Part 2:
   - [Git
     Intro](https://github.com/ellennickles/code-your-way-s26/blob/main/version-control-guides/git.md)
@@ -22,7 +21,7 @@
   
 ## Assignment
 
-### Creative Exercises Path • Iterative Patterns 1
+### Creative Exercises Path • Iterative Patterns 2
 
 <details>
 
