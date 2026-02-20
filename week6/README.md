@@ -3,7 +3,7 @@
 ## References
 
 - [Class
-  Slides](https://drive.google.com/drive/u/1/folders/1HC5g1BO8moptbtgz-JwVVv9DldnW3Q_U)
+  Slides]() - link to be added
 - Week 4 Exercises Redux
   - [Exercise 4](https://editor.p5js.org/enickles/sketches/37od7_tjF)
   - [Exercise 3](https://editor.p5js.org/enickles/sketches/jwt-VWMOK)
@@ -49,18 +49,24 @@
 
 ## Assignment
 
+### Creative Exercises Path • Refactor + Git Branches
+
+<details>
+
+<summary>Assignment details</summary>
+
 - The ideas this week are to practice refactoring code that you have already
   written and to continue practicing version control with Git.
 - **Tip:** Refactor your code with Git branches! See the steps and **demo videos** in this week's
   class slides. Consider installing the [Oh My Zsh shell
-  framework](https://github.com/ellennickles/code-your-way-s25/blob/main/version-control-guides/tips-and-tricks.md#oh-my-zsh) (if not already implemented) to automatically display
+  framework](https://github.com/ellennickles/code-your-way-s26/blob/main/version-control-guides/tips-and-tricks.md#oh-my-zsh) (if not already implemented) to automatically display
   when you are in a Git repository along with the current branch.
 
 ### Part 1: Refactor + Git Branches
 
 - Set Up Your Local Project
   - Create a local directory for a p5.js project and initialize it as a [Git
-  repository](https://github.com/ellennickles/code-your-way-s25/blob/main/version-control-guides/git.md#create-a-git-repository).
+  repository](https://github.com/ellennickles/code-your-way-s26/blob/main/version-control-guides/git.md#create-a-git-repository).
   - Choose a previous sketch (from this course or another) to refactor so that
     the output remains the same, but the code is restructured for clarity and
     efficiency.
@@ -86,7 +92,7 @@
   - Practice switching between your branch and the "main" branch.
   - Merge your branch into "main" when you're ready.
   
-### Part 2: Document
+#### Part 2: Document
 
 - Document your work that includes a link to your original AND refactored code.
 - Describe and reflect on the changes you made and why you made them.
@@ -96,14 +102,25 @@
   work?
 - Troubleshooting: Where did you get stuck—whether with Git, coding, or both?
   What steps did you take to troubleshoot?
-- AI Use: If you used GitHub Copilot (or another AI tool) for debugging,
-  refactoring, or generating code, reflect on how it influenced your process.
-  Where was it helpful, and where did it fall short?
 - Next steps: What coding or Git-related techniques would you like to explore
   and practice more?
-- [Submit here](https://forms.gle/CJZMpMpTeDxpvWv18)
+- [Submit here](https://forms.gle/HaUJ7Mg74TJHxrJe8)
 
-## EVERYONE Coming Up!
+</details>
+
+### Self-Guided Study Path • Independent Learning
+
+<details>
+
+<summary>Assignment details</summary>
+
+
+</details>
+
+
+
+
+### EVERYONE Coming Up!
 
 - After next wee, we’ll transition to the second part of the course, where you'll
   develop an independent project—or a series of smaller projects—of your choice.
