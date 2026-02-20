@@ -1,381 +1,337 @@
 # GitHub Introduction
 
+>_This guide picks up where the [Git Introduction](git.md) guide leaves off. Make sure you have Git installed and configured before continuing._
+
 ## Contents
 
-- [Part 0: Create a GitHub account](#part-0-create-a-github-account)
-- [Part 1: Set up SSH keys for GitHub authentication](#part-1-set-up-ssh-keys-for-github-authentication)
-  - [Step 1: Generate a new SSH key pair on your local computer](#step-1-generate-a-new-ssh-key-pair-on-your-local-computer)
-  - [Step 2: Add the SSH private key to the ssh-agent](#step-2-add-the-ssh-private-key-to-the-ssh-agent)
-  - [Step 3: Add the SSH public key to your GitHub account](#step-3-add-the-ssh-public-key-to-your-github-account)
-  - [Step 4: Test your SSH connection](#step-4-test-your-ssh-connection)
-- [Part 2: Integrating GitHub](#part-2-integrating-github)
-  - [Step 1: Add a local Git repository to GitHub](#step-1-add-a-local-git-repository-to-github)
-  - [Step 2: Push changes to a remote repository](#step-2-push-changes-to-a-remote-repository)
-  - [Step 3: Pull changes from a remote repository](#step-3-pull-changes-from-a-remote-repository)
-  - [Option: Clone a GitHub repository to a local directory](#option-clone-a-github-repository-to-a-local-directory)
-- [Part 3: Resources](#part-3-resources)
+- [1. About GitHub](#1-about-github)
+- [2. Create a GitHub account](#2-create-a-github-account)
+- [3. Set up SSH keys for authentication](#3-set-up-ssh-keys-for-authentication)
+  - [3.1 Generate a new SSH key pair](#31-generate-a-new-ssh-key-pair)
+  - [3.2 Add the SSH private key to the ssh-agent](#32-add-the-ssh-private-key-to-the-ssh-agent)
+  - [3.3 Add the SSH public key to your GitHub account](#33-add-the-ssh-public-key-to-your-github-account)
+  - [3.4 Test your SSH connection](#34-test-your-ssh-connection)
+- [4. Connect a local repository to GitHub](#4-connect-a-local-repository-to-github)
+  - [4.1 Add a local Git repository to GitHub](#41-add-a-local-git-repository-to-github)
+  - [4.2 Push changes to a remote repository](#42-push-changes-to-a-remote-repository)
+  - [4.3 Pull changes from a remote repository](#43-pull-changes-from-a-remote-repository)
+  - [4.4 Clone a GitHub repository to your computer](#44-clone-a-github-repository-to-your-computer)
+- [5. Resources](#5-resources)
 
-## Part 0: Create a GitHub account
+---
 
-Github is an online service that allows you to host your Git version-controlled
-projects. It's a platform from which you can easily share your projects,
-software or otherwise, and also develop projects with others. The general idea
-is to motivate open software, knowledge sharing, and collaboration.
+## 1. About GitHub
 
-First create a [GitHub
-account](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home)
-if you don't already have one.
+**GitHub** is an online platform for hosting Git repositories. Once your project
+is on GitHub, you can share it with others, access it from any computer, and
+collaborate with teammates, all while keeping the full version history that Git
+provides.
 
-## Part 1: Set up SSH keys for GitHub authentication
+A few key terms you'll see throughout this guide:
 
- To connect to GitHub from your local repositories, you'll need to set up
- [Secure Shell Protocol (SSH)](https://en.wikipedia.org/wiki/Secure_Shell) keys
- to authenticate from the terminal/command line and **push** or
- **pull** changes from GitHub to your local computer.
+- **Remote:** A version of your repository stored somewhere other than your local computer — in this case, on GitHub.
+- **Push:** Sending commits from your local repository up to the remote on GitHub.
+- **Pull:** Downloading changes from the remote repository to your local computer.
+- **Clone:** Making a full local copy of a remote repository, including its entire history.
 
- SSH is a secure way to connect to remote accounts over unsecure networks based
- on a [public-key
- cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography) encryption
- system. Watch this short Kahn Academy video, [Encryption and public
- keys](https://www.youtube.com/watch?v=6-JjHa-qLPk&t=387s), to learn more.
+---
 
- **NOTE:** The process of setting up these keys might be different for everyone
- depending on their operating system version. If you run into issues, refer to
- the linked tutorials as a starting point.
+## 2. Create a GitHub account
 
-### Step 1: Generate a new SSH key pair on your local computer
+If you don't already have one, create a free account at [github.com](https://github.com/signup).
 
->_Reference: [Generating a new SSH
-  key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key)_
+> 💡 **Tip:** Your GitHub username will appear in your commit history and on your public profile.
 
-1. Open Terminal
-2. Paste the text below (but not the prompt `$` if that is visible to you here), substituting in **your GitHub
-   email address**:
+---
 
-    ```ssh
-    ssh-keygen -t ed25519 -C "your_github_email@example.com"
-    ```
+## 3. Set up SSH keys for authentication
 
-    The output should look something like this:
+To connect your local repositories to GitHub, you need to set up **SSH keys**. SSH (Secure Shell Protocol) is a secure way to authenticate over a network without typing your password every time.
 
-    ```txt
-    Generating public/private ed25519 key pair.
-    ```
+It works using a pair of keys:
+- A **private key** that stays on your computer (never share this)
+- A **public key** that you give to GitHub
 
-3. You will be prompted to "Enter a file in which to save the key" AND you will
-   be prompted with a default file location to save that key, something like:
+When you push or pull, GitHub uses the public key to verify that you're you.
 
-    ```txt
-    Enter a file in which to save the key (/Users/YOU/.ssh/ed25519: [Press enter]
-    ```
+> 💡 **The setup process may look slightly different** depending on your operating system version. If you run into issues, refer to GitHub's official documentation linked in each step.
 
-    **Don't type anything**, just **press Enter** to accept the current
-    location.
+### 3.1 Generate a new SSH key pair
 
-4. Next you will prompted to add a
-   [passphrase](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/working-with-ssh-key-passphrases)
-   for an extra layer of security protection. Skip this for now: **press Enter twice** to leave the passphrase empty. You can always add one later.
+> _Reference: [Generating a new SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key)_
 
-5. Once the key is saved, the output will look something like this:
+1. Open [Terminal (Mac)](https://support.apple.com/guide/terminal/open-or-quit-terminal-apd5265185d-f365-44cb-8b09-71a064a42125/mac) or [PowerShell (Windows)](https://learn.microsoft.com/en-us/powershell/scripting/windows-powershell/starting-windows-powershell?view=powershell-7.5) and run the following command, substituting in **your GitHub email address**:
 
-    ```txt
-    Your identification has been saved in /Users/YOU/.ssh/ed25519.
-    Your public key has been saved in /Users/YOU/.ssh/ed25519.pub.
-    The fingerprint key is: SHA256:...and a looong string of characters your_github_email@example.com
-    The key's randomart image is: +--[ED25519 256]--+ ...and more characters
-    ```
+   ```sh
+   ssh-keygen -t ed25519 -C "your_github_email@example.com"
+   ```
 
-### Step 2: Add the SSH private key to the ssh-agent
+   The output should look something like this:
 
-In order to use your SSH private key, add it to another program called the
-**ssh-agent** on your computer.
+   ```txt
+   Generating public/private ed25519 key pair.
+   ```
 
->_Reference: [Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)_
+2. You'll be prompted to choose a location to save the key:
+
+   ```txt
+   Enter a file in which to save the key (/Users/YOU/.ssh/ed25519): [Press enter]
+   ```
+
+   **Don't type anything** — just press **Enter** to accept the default location.
+
+3. You'll then be prompted to set a passphrase for extra security. For now, press **Enter twice** to leave it empty. You can always add one later.
+
+4. Once the key is saved, the output will look something like this:
+
+   ```txt
+   Your identification has been saved in /Users/YOU/.ssh/id_ed25519.
+   Your public key has been saved in /Users/YOU/.ssh/id_ed25519.pub.
+   The fingerprint is: SHA256:...and a long string of characters your_github_email@example.com
+   ```
+
+### 3.2 Add the SSH private key to the ssh-agent
+
+The **ssh-agent** is a program that runs in the background on your computer and manages your SSH keys so you don't have to re-enter them during every session.
+
+> _Reference: [Adding your key to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)_
 
 1. Start the ssh-agent in the background:
 
-    ```ssh
-    eval "$(ssh-agent -s)"
-    ```
+   ```sh
+   eval "$(ssh-agent -s)"
+   ```
 
-    The output should look something like this:
+   The output should look something like this:
 
-   ```text
-    > Agent pid 59566
-    ```
+   ```txt
+   Agent pid 59566
+   ```
 
-    NOTE: Depending on your environment, you may need to run a different
-    command. Check the tutorial above for options.
+   > 💡 Depending on your environment, you may need to use a slightly different command. Check the reference link above for alternatives.
 
-2. If you're using macOS Sierra 10.12.2 or later, you will need to modify your
-   ~/.ssh/config file to automatically load keys into the ssh-agent and store
-   passphrases in your keychain. (If you are not using macOS Sierra 10.12.2 or
-   later, skip this step.)
+2. **macOS only:** If you're using macOS Sierra 10.12.2 or later, you'll need to configure your SSH settings so your key is loaded automatically each time you start a session.
 
-   - First, check to see if your `~/.ssh/config` file exists in the default
-     location by printing its contents:
-  
-      ```ssh
-      cat ~/.ssh/config
-      ```
+   - Check whether the config file already exists:
 
-   - If the file doesn't exist, create the file:
+     ```sh
+     cat ~/.ssh/config
+     ```
 
-      ```ssh
-      touch ~/.ssh/config
-      ```
+   - If the file doesn't exist, create it:
 
-   - Open your `~/.ssh/config` file, then modify the file to contain the
-     following lines. This command expects that the [default text
-     editor is configured to use Visual Studio
-     Code](https://github.com/ellennickles/code-your-way-s25/blob/main/version-control-guides/tips-and-tricks.md#shell-command):
+     ```sh
+     touch ~/.ssh/config
+     ```
 
-      ```ssh
-      code ~/.ssh/config
-      ```
+   - Open the file in your text editor:
 
-    - **NOTE:** If Visual Studio Code is not your default text editor, instead
-      use Nano in the terminal (another text editor) to modify the config file:
+     ```sh
+     nano ~/.ssh/config
+     ```
 
-        ```ssh
-        nano ~/.ssh/config
-        ```
+     Or, if VS Code is set as your default editor:
 
-   - The config file should open in a new window in Visual Studio Code or if
-     using Nano, within the Terminal window. Add the following lines. If you
-     copy and paste, take care not to include extra spaces at the end. You can
-     also manually type these commands into the file.
+     ```sh
+     code ~/.ssh/config
+     ```
 
-      ```txt
-      Host github.com
-        AddKeysToAgent yes
-        IdentityFile ~/.ssh/id_ed25519
-      ```
+   - Add the following lines. Be careful not to include any extra spaces at the end:
 
-   - Save and close the file and return to the terminal.
+     ```txt
+     Host github.com
+       AddKeysToAgent yes
+       IdentityFile ~/.ssh/id_ed25519
+     ```
 
-   - Print out the contents of the file to verify the change:
+   - Save and close the file, then verify the contents:
 
-      ```ssh
-      cat ~/.ssh/config
-      ```
+     ```sh
+     cat ~/.ssh/config
+     ```
 
 3. Add your SSH private key to the ssh-agent:
 
-    ```ssh
-    ssh-add ~/.ssh/id_ed25519
-    ```
+   ```sh
+   ssh-add ~/.ssh/id_ed25519
+   ```
 
-    The output should look something like this:
+   The output should look something like this:
 
-    ```txt
-    Identity added: /Users/YOU/.ssh/id_ed25519 (your_github_email@example.com)
-    ```
+   ```txt
+   Identity added: /Users/YOU/.ssh/id_ed25519 (your_github_email@example.com)
+   ```
 
-### Step 3: Add the SSH public key to your GitHub account
+### 3.3 Add the SSH public key to your GitHub account
 
->_Reference: [Adding a new SSH key to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)._
+> _Reference: [Adding a new SSH key to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)_
 
-  1. Copy the SSH public key to your clipboard:
+1. Copy your public key to your clipboard:
 
-      ```ssh
-      pbcopy < ~/.ssh/id_ed25519.pub
-      ```
+   **Mac:**
+   ```sh
+   pbcopy < ~/.ssh/id_ed25519.pub
+   ```
 
-      **NOTE:** If `pbcopy` isn't working, print the contents and copy it to your
-      clipboard:
+   If `pbcopy` isn't working, print the key and copy it manually:
+   ```sh
+   cat ~/.ssh/id_ed25519.pub
+   ```
 
-      ```ssh
-      cat ~/.ssh/id_ed25519.pub
-      ```
+   **Windows:**
+   ```sh
+   Get-Content ~/.ssh/id_ed25519.pub | Set-Clipboard
+   ```
 
-  2. Navigate to your GitHub account > Click your profile photo (upper right) >
-      **Settings**
+2. In your GitHub account, click your **profile photo** (upper right corner) > **Settings**
 
-  3. Sidebar > **SSH and GPG keys**
+3. In the sidebar, click **SSH and GPG keys**
 
-  4. Click **New SSH key** or **Add SSH key**
+4. Click **New SSH key** or **Add SSH key**
 
-  5. Complete the following:
-      - **Title**: Add a descriptive label for the new key. For example,
-      if you're using a personal laptop, you might call this key "Personal
-      laptop"
-      - **Key type**: Authentication key
-      - **Key**: paste in public key (copied in Step 1 above)
-      - Click **Add SSH Key**
+5. Complete the form:
+   - **Title:** A descriptive label for this key, e.g. `Personal laptop`
+   - **Key type:** Authentication Key
+   - **Key:** Paste in the public key you copied above
 
-  6. If prompted, confirm access to your account on GitHub.
+6. Click **Add SSH key**. If prompted, confirm access to your account.
 
-### Step 4: Test your SSH connection
+### 3.4 Test your SSH connection
 
->_Reference: [Testing your SSH
->connection](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection)._
+> _Reference: [Testing your SSH connection](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection)_
 
-1. Open your terminal
+1. In your terminal, run:
 
-2. Enter the following:
+   ```sh
+   ssh -T git@github.com
+   ```
 
-    ```sh
-    ssh -T git@github.com
-    ```
+2. You may see a warning like this:
 
-    You might see a warning like this:
+   ```txt
+   The authenticity of host 'github.com (IP ADDRESS)' can't be established.
+   RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
+   Are you sure you want to continue connecting (yes/no)?
+   ```
 
-    ```ssh
-    > The authenticity of host 'github.com (IP ADDRESS)' can't be established.
-    > RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
-    > Are you sure you want to continue connecting (yes/no)?  
-    ```
+   Verify that the fingerprint matches [GitHub's published key fingerprints](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/githubs-ssh-key-fingerprints). If it does, type `yes` and press **Enter**.
 
-3. Verify that the fingerprint in the message you see matches [GitHub's public
-   key fingerprint](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/githubs-ssh-key-fingerprints). If it does, then type `yes`:
+3. A successful connection will look like this:
 
-    ```sh
-    yes
-    ```
+   ```txt
+   Hi YOURGITHUBUSERNAME! You've successfully authenticated, but GitHub does not provide shell access.
+   ```
 
-    The output might look something like this:
+   Verify that the message contains your username. If you see a "permission denied" error instead, refer to GitHub's guide on [fixing permission denied errors](https://docs.github.com/en/authentication/troubleshooting-ssh/error-permission-denied-publickey).
 
-    ```ssh
-    > Hi YOURGITHUBUSERNAME! You've successfully authenticated, but GitHub does not provide shell access.  
-    ```
-  
-4. Verify that the resulting message contains your username. If you receive a
-   "permission denied" message, see "[Error: Permission denied
-   (publickey)](https://docs.github.com/en/authentication/troubleshooting-ssh/error-permission-denied-publickey)."
+---
 
-## PART 2: Integrating GitHub
+## 4. Connect a local repository to GitHub
 
-### Step 1: Add a local Git repository to GitHub
+### 4.1 Add a local Git repository to GitHub
 
->_References: [Creating a new repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository) and [Adding a local repository to GitHub using
-Git](https://docs.github.com/en/get-started/importing-your-projects-to-github/importing-source-code-to-github/adding-locally-hosted-code-to-github#adding-a-local-repository-to-github-using-git)_
+> _References: [Creating a new repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository) and [Adding a local repository to GitHub](https://docs.github.com/en/get-started/importing-your-projects-to-github/importing-source-code-to-github/adding-locally-hosted-code-to-github#adding-a-local-repository-to-github-using-git)_
 
-You can **push** a local Git repository to GitHub.com store and share with
-others. (You can also make repositories on GitHub private.)
+You can **push** a local Git repository to GitHub to back it up, share it, or access it from another computer.
 
-1. Make sure you have a local Git repository. If you need to, refer to our Git
-   Intro guide for how to [initialize a repository in a local p5 project
-   directory](https://github.com/ellennickles/code-your-way-s25/blob/main/version-control-guides/git.md#initialize-a-repository-in-a-local-p5-project-directory).
+1. Make sure you have a local Git repository with at least one commit. If you need to create one, refer to [Section 4.2 of the Git Introduction guide](git.md#42-initialize-a-repository-in-a-local-p5-project-directory).
 
-2. In your GitHub.com account, create a **new repository**. (You'll connect your
-   **local** repository to this new **remote** repository in a minute.) From
-   the **+ menu** in the upper left corner > **New repository**
+2. On GitHub.com, create a **new repository**. From the **+** menu in the upper right corner, select **New repository**.
 
-3. Complete the following:
+3. Complete the form:
+   - **Repository name:** Use the same name as your local folder for consistency. No spaces — for example: `myproject`
+   - **Visibility:** For course projects you want to share, use **Public**
+   - Skip the optional initialization steps (README, .gitignore, license) — you'll be pushing existing files
+   - Click **Create repository**
 
-    - **Repository name**: For consistency, use the same name as your local Git
-    repository. Do not include spaces. For example: **p5demo**
-    - Set the visibility of the repository. For now, and to share projects in our
-      course, use: **Public**
-    - Skip the other optional steps and click: **Create Repository**
+4. On the next screen, copy the **SSH URL** — it looks like: `git@github.com:YOURUSERNAME/myproject.git`
 
-4. Copy the SSH URL from: **Quick setup** > SSH button > SSH URL
+   > 💡 Make sure you click the **SSH** button (not HTTPS) before copying the URL. If you don't see SSH and HTTPS options, look for the **Quick setup** section at the top of the page.
 
-5. In your terminal, navigate into your local Git repository:
+5. In your terminal, navigate into your local repository. Make sure all your recent changes are committed and that you're on the `main` branch:
 
-    - Ensure that all of your recent changes have been staged (added) and
-      committed
-    - Ensure that you are on the main branch:
+   ```sh
+   git checkout main
+   ```
 
-      ```sh
-      git checkout main
-      ```
+6. Link your local repository to the new remote and push your commits:
 
-6. To connect your **local** repository to your new **remote** repository, type
-   these commands using the SSH URL you copied before:
+   ```sh
+   git remote add origin git@github.com:YOURUSERNAME/myproject.git
+   git push -u origin main
+   ```
 
-      ```sh
-      git remote add origin git@github.com:YOURGITHUBUSERNAME/p5demo.git
-      git push -u origin main
-      ```
+   > 💡 **What does `origin` mean?** It's the conventional name for your primary remote repository. The `-u` flag in the push command sets `origin main` as the default, so future pushes can be shortened to just `git push`.
 
-    `origin` is the name of your remote repository. I know, it's confusing
-    because the repository _originated_ on your local computer! You can change
-    the remote name to `destination` following the steps in this tutorial,
-    [Renaming a remote
-    repository](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories?platform=mac#renaming-a-remote-repository)
+7. Refresh your GitHub repository page — your files should now appear there.
 
-7. Return to your GitHub account and refresh your remote repository page to
-    find your project's files. NOTE: After you connect your local repository to
-    a remote repository, any commits that you make on your local machine will
-    not automatically be "saved" in the remote repository. You'll need to `push`
-    those changes to the remote.
+   > ⚠️ **Commits don't sync automatically.** After this initial setup, local commits will _not_ appear on GitHub until you push them. See [Section 4.2](#42-push-changes-to-a-remote-repository) below.
 
-### Step 2: Push changes to a remote repository
+### 4.2 Push changes to a remote repository
 
-After you connect your local repository to a remote repository, local commits
-are not automatically "saved" in the remote repository. You'll need to `push`
-those commits to the remote repository on GitHub with this command:
+After your local and remote repositories are connected, use `git push` to send new commits to GitHub:
 
-  ```sh
-  git push origin main
-  ```
+```sh
+git push origin main
+```
 
-Refresh your remote repository page on GitHub to see the changes.
+Refresh your GitHub repository page to see the updated files and commit history.
 
-### Step 3: Pull changes from a remote repository
+> 💡 **Run `git status` first** to confirm you're on the `main` branch and that your changes are committed before pushing.
 
-Similarly, if you make any changes to the remote repository on GitHub, those
-updates are not automatically reflected in the repository on your local
-computer.
+### 4.3 Pull changes from a remote repository
 
-For example, if you followed the steps above, then your project does
-not have a README file to describe your project to others on GitHub. We can
-certainly create this file on our local machines (using the `touch README.md`
-command), but let's make the update in the remote repository on GitHub and then
-pull it down to the local repository:
+If changes are made directly on GitHub — like editing a file or adding a README in the browser — those changes won't appear on your local machine until you pull them down.
 
-1. On your remote repository, click **Add a README**
-2. GitHub automatically generates a title for the page from your repository's
-   name using Markdown. Markdown syntax to format plain text: [Getting started with writing and formatting
-   on
-   GitHub](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github)
-3. Feel free to change the title and add a project description
-4. **Preview** the results
-5. When finished, scroll to the bottom of the page to commit this file to
-   your repository's `main` branch:
-    - Enter a commit message. The default message is: `Create README.md`
-    - Click **Commit new file**
-6. In the terminal, type this command to pull changes into your local
-   repository:
+Let's try it by adding a README file on GitHub:
 
-    ```sh
-    git pull origin main
-    ```
+1. On your GitHub repository page, click **Add a README**
 
-7. On your local computer, look for the new README.md file in your project's directory
+2. GitHub will generate a title from your repository name using [Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax). Feel free to edit the title and add a project description.
 
-### Option: Clone a GitHub repository to a local directory
+3. Click **Preview** to see how it will render.
 
-If you want to pull a local version of your repository to different place on your computer
-(or to another local computer or to a server on a hosting service), or if you want a local
-version of another repository that you find on GitHub:
+4. When you're ready, scroll to the bottom of the page and click **Commit changes**, keeping the default message (`Create README.md`).
 
-1. Navigate to the repository on GitHub
-2. From the **<> Code** menu > Local: Clone: SSH > **Copy the SSH URL**
-3. In the terminal, navigate to a location on your local computer to clone the
-   repository and use this command:
+5. In your terminal, pull the new file to your local repository:
 
-    ```sh
-    git clone git@github.com:THEGITHUBACCOUNT/REPONAME.git
-    ```
+   ```sh
+   git pull origin main
+   ```
 
-## Part 3: Resources
+6. Look inside your project folder — `README.md` should now be there.
 
-- [About Git (and how it works with
-  GitHub)](https://docs.github.com/en/get-started/using-git/about-git)
-- [Hello World: Follow this Hello World exercise to get started with
+### 4.4 Clone a GitHub repository to your computer
+
+**Cloning** creates a complete local copy of a remote repository, including all of its files and commit history. Use this when you want to:
+
+- Work on a repository from a different computer
+- Get a local copy of someone else's public repository
+- Download a project from GitHub to work on locally
+
+1. Navigate to the repository on GitHub.
+
+2. Click the **<> Code** button > **Local** tab > **SSH** > copy the SSH URL.
+
+3. In your terminal, navigate to the location where you want to place the folder, then run:
+
+   ```sh
+   git clone git@github.com:GITHUBUSERNAME/reponame.git
+   ```
+
+   This creates a new folder with the repository name and downloads everything into it.
+
+---
+
+## 5. Resources
+
+- [About Git and how it works with
+  GitHub](https://docs.github.com/en/get-started/using-git/about-git)
+- [Hello World — a beginner exercise for
   GitHub](https://docs.github.com/en/get-started/quickstart/hello-world)
 - [GitHub flow](https://docs.github.com/en/get-started/quickstart/github-flow)
-- [Pro Git book:
+- [Pro Git book: Collaborating on
   GitHub](https://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project)
-  (on collaborating)
-- Coding Train videos: [Introduction to Git and
-  GitHub](https://thecodingtrain.com/tracks/git-and-github-for-poets/git/1-fundamentals/1-intro)
-  (from 2016)
-- [Markdown Basic writing and formatting
+- [Markdown basic
   syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-- [Communicate using
-  Markdown](https://github.com/skills/communicate-using-markdown)
 - [Markdown Tutorial](https://www.markdowntutorial.com/)

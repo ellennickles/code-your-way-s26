@@ -103,13 +103,9 @@
   and practice more?
 - [Submit here](https://forms.gle/CJZMpMpTeDxpvWv18)
 
-### Part 3: Prep for next week
+## EVERYONE Coming Up!
 
-- Next week, we'll practice pushing our code projects to GitHub. Be sure you
-  have a [GitHub account](https://github.com/) (you likely set one up in Weeks 2
-  and 3), and consider signing up for the GitHub Student Developer Pack for free
-  benefits.
-- After that, we’ll transition to the second part of the course, where you'll
+- After next wee, we’ll transition to the second part of the course, where you'll
   develop an independent project—or a series of smaller projects—of your choice.
   This will be an opportunity to deepen your practice with the programming
   concepts and strategies we've covered so far.
