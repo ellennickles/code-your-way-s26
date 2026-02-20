@@ -13,6 +13,14 @@
   
 ## Assignment
 
+### Everyone - UPDATE
+
+### Part 3: Prep for next week
+
+- Next week, we'll practice pushing our code projects to GitHub. Be sure you
+  have a [GitHub account](https://github.com/) (you likely set one up in Week 2), and consider signing up for the GitHub Student Developer Pack for free
+  benefits.
+
 ### Creative Exercises Path • Parametric Geometries - UPDATE GIT PART
 
 <details>
