@@ -10,18 +10,10 @@
     Tricks](https://github.com/ellennickles/code-your-way-s26/blob/main/version-control-guides/tips-and-tricks.md)
   - [All Version Control
     Guides](https://github.com/ellennickles/code-your-way-s26/tree/main/version-control-guides)
-  
+
 ## Assignment
 
-### Everyone - UPDATE
-
-### Part 3: Prep for next week
-
-- Next week, we'll practice pushing our code projects to GitHub. Be sure you
-  have a [GitHub account](https://github.com/) (you likely set one up in Week 2), and consider signing up for the GitHub Student Developer Pack for free
-  benefits.
-
-### Creative Exercises Path • Parametric Geometries - UPDATE GIT PART
+### Creative Exercises Path • Parametric Geometries
 
 <details>
 
@@ -29,8 +21,7 @@
 
 Don't worry if you haven't worked with algebra and trigonometry in a long time!
 Just tinker and have fun with the equations in the code examples. This week is
-more about continued practice of version control with Git using the
-command line interface.
+also about practicing Git branches using the command line interface.
 
 #### Part 1: Explore and Experiment
 
@@ -50,7 +41,7 @@ interactive, and/or combine it with a previous sketch.
 
 - Highly recommend! [Recreating Vintage Computer Art with
   Processing](https://www.youtube.com/watch?v=LaarVR1AOvs), inspired by John
-  Whitney’s work (linked below), is an excellent introduction to creative coding
+  Whitney's work (linked below), is an excellent introduction to creative coding
   with parametric equations with sine and cosine functions. (What's the
   [`return`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/return)
   keyword?)
@@ -78,18 +69,26 @@ interactive, and/or combine it with a previous sketch.
     Table](https://thecodingtrain.com/challenges/116-lissajous-curve-table) (and
     [challenge continued](https://www.youtube.com/watch?v=glDU8Nsyidg))
 
-#### Part 2: Re/Code
+#### Part 2: Re/Code + Git Branches Practice
 
 1. Develop a local p5 project on your computer in VS Code, and program your own
-  full screen screensaver. (Hmmm... coming full circle to Week 1's preloaders?)
-  Further extend one of your modified examples above or combine some.
-2. Using the command line, navigate into the p5 project directory and
-    initialize it as a Git repository. (I generally recommend creating one folder per p5 project to initialize as a repo.)
-3. Use our [Git Intro](https://github.com/ellennickles/code-your-way-s25/blob/main/version-control-guides/git.md)
-    as references and try committing your changes as you develop your sketch.
-    - NOTE: Saving changes in VS Code does not automatically save them to your
-      Git repository. To save changes in Git, you need to (1) stage (add) your
-      modified files and then (2) commit them to the repository.
+  full screen screensaver. Further extend one of your modified examples above or
+  combine some.
+2. As you develop your sketch, commit your changes regularly (aim for at least
+  3 commits). Remember: saving in VS Code and saving to Git are two separate
+  steps.
+3. When you're ready to try a more experimental direction **create a branch** rather than editing
+  your stable version directly:
+    1. Create and switch to a new branch: `git checkout -b nameofnewbranch`
+    2. Make your changes, then stage and commit as usual.
+    3. Switch back to your main branch when you want to return to your stable
+      version: `git checkout main`
+    4. If you like what you made on the branch, merge it in:
+      `git merge nameofnewbranch`
+    5. If Oh My Zsh isn't installed yet, check the [Tips and
+      Tricks](https://github.com/ellennickles/code-your-way-s26/blob/main/version-control-guides/tips-and-tricks.md)
+      guide. It makes your current branch visible in the command prompt, which
+      helps a lot.
 4. Review possible inspiration
    - Featured artists in the [Class
      Slides](https://docs.google.com/presentation/d/1xHHQjLG4BQKmyB7eRheWoB0fK_tK5doksTyXGHfffnY/edit?slide=id.g1dd282650f5_1_161#slide=id.g1dd282650f5_1_161)
@@ -98,11 +97,11 @@ interactive, and/or combine it with a previous sketch.
     theme: [Mystify](https://www.youtube.com/watch?v=FPfMkEgi2qI),
     [Bézier](https://www.youtube.com/watch?v=3SEBEh_t5K8), and also
     [Screensaver_XP](https://openprocessing.org/sketch/215642) by kuba
-   - John Whitney’s [Catalog](https://www.youtube.com/watch?v=TbV7loKp69s) (1961)
+   - John Whitney's [Catalog](https://www.youtube.com/watch?v=TbV7loKp69s) (1961)
     and [Matrix III](https://www.youtube.com/watch?v=ZrKgyY5aDvA) (1972), as
     well as [An Afternoon with John
     Whitney](https://www.youtube.com/watch?v=cP5Mj6ZvZJc)
-   - [Franke’s
+   - [Franke's
     Oscilloscope](https://www.drbillkolomyjec.com/artworks/generative-art-vending-machine/franke-s-oscilloscope)
     Be sure to click _Generate_ for new examples! See description for how to
     start with a pair of parametric equations.
@@ -119,27 +118,27 @@ interactive, and/or combine it with a previous sketch.
     [Harmonograph](https://en.wikipedia.org/wiki/Harmonograph), a mechanical
     device that employs a pendulum to generate images"
 
+> **Tip:** Branches are a low-stakes way to try something new, and your `main`
+> branch stays safe while you experiment. Think of it as a "what if?" lane.
+
 #### Part 3: Document
 
 - Document your work. Copy and paste any code from VS Code into the p5 web
   editor, so you can link to your sketches in your documentation. I know, I know
   this is getting super redundant, but it's still the easiest way to share.
 - Reflect on the discoveries and challenges you encountered with the code
-  exercises **and also with your new workflow using the command line interface
-  with Git for version control**. And also: what graphic or animation effects are most pleasing to you? Where did you get stuck, and what steps did you take to troubleshoot? If you debugged or extended your code with GitHub Copilot, reflect on your discoveries and challenges, noting where AI was helpful or limiting. Are there any code-related techniques that would you like to explore and practice more?
-  What would you like to explore and practice more?
+  exercises **and also with your Git branches workflow**. And also:
+  - What graphic or animation effects are most pleasing to you?
+  - Where did you get stuck, and what steps did you take to troubleshoot?
+  - Did you use a branch this week? What did you put on it, and did you end up
+    merging it or leaving it separate? How did it feel to have a "safe" space to
+    experiment?
+  - What would you like to explore and practice more?
 - [Submit here](https://forms.gle/HaUJ7Mg74TJHxrJe8)
-
-#### Part 4: Prepare for next week's class
-
-- You should have this from Week 2 but if you don’t already have one,
-  create a [GitHub account](https://github.com/).
-- Sign up for the [GitHub Student Developer
-  Pack](https://education.github.com/pack) to get free benefits.
 
 </details>
 
-### Self-Guided Study Path • Independent Learning - UPDATE FROM LAST WEEK - POINT OUT THAT THERE ARE THREE WEEKS (not including spring break) until project proposals, which everyone will do
+### Self-Guided Study Path • Independent Learning
 
 <details>
 
@@ -147,10 +146,12 @@ interactive, and/or combine it with a previous sketch.
 
 #### Part 1: Keep Going
 
-Showing up each week and doing the work *is* the work. Learning anything new
-independently can genuinely be hard, and the fact that you're here, building a
-practice week by week, matters more than any single breakthrough. Progress isn't
-always visible right away, but it accumulates. Trust the process.
+You're a third of the way through the semester. The foundation you've been
+laying week by week is starting to mean something, keep building on it.
+
+One thing to keep on your radar: in **Week 8**, everyone will share their
+project proposals with the class for feedback. We'll talk through ideas together
+before then, but it's worth keeping in mind as you work through your resources. What are you building toward?
 
 Keep working through your resources and building on last week's progress. This week, aim to:
 
@@ -162,27 +163,29 @@ Keep working through your resources and building on last week's progress. This w
   advanced, or not what you expected—that's useful information! Make a note of
   it and reach out to me so we can find alternatives together.
 
-#### Part 2: Git Practice (Optional but Encouraged)
+#### Part 2: Git Branches (Optional but Encouraged)
 
-This week in class we introduced Git for version control. Whether or not it's
-relevant to your current learning plan right now depends on where you are.
+This week in class we practiced **Git branches** — a way to develop experimental
+changes without affecting your stable `main` version.
 
-**If you're already iterating on code week to week** (writing, testing, and
-revising files on your own computer), then this is a good time to start practicing Git
-alongside the class. Use these guides to get started:
+**If you've already been making commits**, this is a great next step. Try
+creating a branch before making a bigger change or trying a new direction in
+your project:
 
-- [Git Intro](https://github.com/ellennickles/code-your-way-s26/blob/main/version-control-guides/git.md)
-- [Tips and Tricks](https://github.com/ellennickles/code-your-way-s26/blob/main/version-control-guides/tips-and-tricks.md)
-- [All Version Control Guides](https://github.com/ellennickles/code-your-way-s26/tree/main/version-control-guides)
+1. Create and switch to a new branch: `git checkout -b nameofnewbranch`
+2. Make your changes, stage, and commit as usual.
+3. Switch back to `main` when you want to return to your stable version:
+  `git checkout main`
+4. If you like what you made, merge it in: `git merge nameofnewbranch`
 
-Try initializing a Git repository for your current project and making a few
-commits as you work this week. Even if it feels awkward at first, the muscle
-memory builds quickly.
+The [Tips and Tricks](https://github.com/ellennickles/code-your-way-s26/blob/main/version-control-guides/tips-and-tricks.md)
+guide covers this workflow and also has instructions for installing Oh My Zsh,
+which makes your current branch visible in the command prompt. Even one branch
+attempt is great practice.
 
-**If you're not yet at a stage where you're managing local files**—for example,
-if you're primarily working through browser-based tutorials or building
-foundational knowledge—no worries. These resources will be here when you're
-ready.
+**If you're not yet managing local files** — for example, if you're primarily
+working through browser-based tutorials or building foundational knowledge — no
+worries. These resources will be here when you need them.
 
 #### Part 3: Document
 
@@ -193,7 +196,8 @@ Continue documenting your weekly progress and reflections:
 - What was challenging? (any points of confusion, how you approached them, and
   whether you found a solution or decided to revisit them later)
 - What's next? (next steps and any lingering questions to explore)
-- If you tried Git this week: how did it go? What was confusing or surprising?
+- If you tried Git branches this week: what did you put on a branch, and how
+  did it go? What was confusing or surprising?
 - [Submit here](https://forms.gle/HaUJ7Mg74TJHxrJe8)
 
 </details>
