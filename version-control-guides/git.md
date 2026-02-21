@@ -551,7 +551,7 @@ For a solo p5 project where you're the only person working on the repo, `git res
    git revert <commit id> --no-edit
    ```
 
-> **Note:** Reverting a commit that isn't the most recent one can sometimes cause conflicts, because later changes may have built on top of it. If that happens, Git will let you know and ask you to resolve them — we'll cover this when we get to collaborative workflows.
+> **Note:** Reverting a commit that isn't the most recent one can sometimes cause conflicts, because later changes may have built on top of it. If that happens, Git will let you know and ask you to resolve them.
 
 #### `git checkout -- <filename>` — restore a single file
 
