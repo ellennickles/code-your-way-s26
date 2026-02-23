@@ -118,7 +118,7 @@ interactive, and/or combine it with a previous sketch.
     [Harmonograph](https://en.wikipedia.org/wiki/Harmonograph), a mechanical
     device that employs a pendulum to generate images"
 
-> **Tip:** Branches are a low-stakes way to try something new, and your `main`
+> **Remember:** Branches are a low-stakes way to try something new, and your `main`
 > branch stays safe while you experiment. Think of it as a "what if?" lane.
 
 #### Part 3: Document
