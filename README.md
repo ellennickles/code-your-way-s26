@@ -10,7 +10,7 @@ of the Arts • Spring 2026
 | Meeting Time   | Mon 9:30am - 12:00pm ET|
 | Location   | 370 Jay Street Brooklyn • Room 407 |
 | Contact | [ellen.nickles@nyu.edu](mailto:ellen.nickles@nyu.edu)<br>On weekdays I aim to respond within 24 hours between 8:00am - 5:00pm |
-| Student Hours  | Monday 1:30pm – 3:30pm<br>[Sign up here](https://calendar.google.com/calendar/u/0/appointments/AcZssZ2nxjeYXV4KB9fwbbOC8YwHfwNY-TVN4s0voJk=) or email for other times |
+| Student Hours  | Monday 1:00pm – 3:00pm <br>[Sign up here](https://calendar.google.com/calendar/u/0/appointments/AcZssZ2nxjeYXV4KB9fwbbOC8YwHfwNY-TVN4s0voJk=) or email for other times |
 | Extra Support | [Resident office hours](https://itp.nyu.edu/help/office-hours/) (schedule) <br>[The Coding Lab](https://codinglab.itp.io/) (schedule or drop-in help)<br>[How to ask code-related questions](https://github.com/ITPNYU/ICM-2021-Code/wiki/Example-Questions) | 
 | Quick Links  | [Submit assignments](https://forms.gle/PB86XbmZu336kx1G6)<br>[Assignment responses](https://docs.google.com/spreadsheets/d/1r5Bh7yIoLggYpk8-oUbtBTsBWMOcI4FkqWht2mfnU2A/edit?gid=2032967498#gid=2032967498)<br>[Our Miro Board](https://tinyurl.com/cyw26-miro)<br>[Our Google Drive folder](https://drive.google.com/drive/folders/17ZkMDK7nC9NSmLt99olyEhQt_kHkQymR?usp=drive_link)|
 
