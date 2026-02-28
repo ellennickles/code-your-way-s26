@@ -58,7 +58,7 @@ When you push or pull, GitHub uses the public key to verify that you're you.
 
 ### 3.1 Generate a new SSH key pair
 
-> _Reference: [Generating a new SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key)_
+> _Reference: [Generating a new SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)_
 
 1. Open [Terminal (Mac)](https://support.apple.com/guide/terminal/open-or-quit-terminal-apd5265185d-f365-44cb-8b09-71a064a42125/mac) or [PowerShell (Windows)](https://learn.microsoft.com/en-us/powershell/scripting/windows-powershell/starting-windows-powershell?view=powershell-7.5) and run the following command, substituting in **your GitHub email address**:
 
@@ -72,7 +72,7 @@ When you push or pull, GitHub uses the public key to verify that you're you.
    Generating public/private ed25519 key pair.
    ```
 
-2. You'll be prompted to choose a location to save the key:
+2. You'll be prompted to choose a location to save the key (where `YOU` is your computer username):
 
    ```txt
    Enter a file in which to save the key (/Users/YOU/.ssh/ed25519): [Press enter]
@@ -82,7 +82,7 @@ When you push or pull, GitHub uses the public key to verify that you're you.
 
 3. You'll then be prompted to set a passphrase for extra security. For now, press **Enter twice** to leave it empty. You can always add one later.
 
-4. Once the key is saved, the output will look something like this:
+4. Once the key is saved, the output will look something like this (where `YOU` is your computer username):
 
    ```txt
    Your identification has been saved in /Users/YOU/.ssh/id_ed25519.
@@ -95,6 +95,11 @@ When you push or pull, GitHub uses the public key to verify that you're you.
 The **ssh-agent** is a program that runs in the background on your computer and manages your SSH keys so you don't have to re-enter them during every session.
 
 > _Reference: [Adding your key to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)_
+
+**Follow the instructions for your operating system:**
+
+<details>
+<summary><strong>Mac</strong></summary>
 
 1. Start the ssh-agent in the background:
 
@@ -110,7 +115,7 @@ The **ssh-agent** is a program that runs in the background on your computer and 
 
    > 💡 Depending on your environment, you may need to use a slightly different command. Check the reference link above for alternatives.
 
-2. **macOS only:** If you're using macOS Sierra 10.12.2 or later, you'll need to configure your SSH settings so your key is loaded automatically each time you start a session.
+2. If you're using macOS Sierra 10.12.2 or later, you'll need to configure your SSH settings so your key is loaded automatically each time you start a session.
 
    - Check whether the config file already exists:
 
@@ -124,16 +129,12 @@ The **ssh-agent** is a program that runs in the background on your computer and 
      touch ~/.ssh/config
      ```
 
-   - Open the file in your text editor:
+   - Open the file in your text editor (note this assumes that you [set up a
+     default text
+     editor to nano](https://github.com/ellennickles/code-your-way-s26/blob/main/version-control-guides/git.md#33-set-default-text-editor)):
 
      ```sh
      nano ~/.ssh/config
-     ```
-
-     Or, if VS Code is set as your default editor:
-
-     ```sh
-     code ~/.ssh/config
      ```
 
    - Add the following lines. Be careful not to include any extra spaces at the end:
@@ -156,11 +157,50 @@ The **ssh-agent** is a program that runs in the background on your computer and 
    ssh-add ~/.ssh/id_ed25519
    ```
 
-   The output should look something like this:
+   The output should look something like this (where `YOU` represents your computer username):
 
    ```txt
    Identity added: /Users/YOU/.ssh/id_ed25519 (your_github_email@example.com)
    ```
+
+</details>
+
+<details>
+<summary><strong>Windows</strong></summary>
+
+1. Open a **new PowerShell window as Administrator**. To do this, search for "PowerShell" in the Start menu, right-click it, and select **"Run as administrator."** Click Yes when prompted.
+
+   > 💡 You'll know you're in admin mode when the window title says "Administrator: Windows PowerShell."
+
+2. Run these two commands **one at a time** to start the ssh-agent:
+
+   ```powershell
+   Get-Service -Name ssh-agent | Set-Service -StartupType Manual
+   ```
+
+   ```powershell
+   Start-Service ssh-agent
+   ```
+
+   The first command configures the ssh-agent service to allow manual startup. The second command starts it. If you don't see any error messages, it worked.
+
+3. **Switch back to a regular (non-admin) PowerShell window.** You don't need admin permissions for the next step.
+
+4. Add your SSH private key to the ssh-agent:
+
+   ```powershell
+   ssh-add C:\Users\YOU\.ssh\id_ed25519
+   ```
+
+   Replace `YOU` with your Windows username. The output should look something like this:
+
+   ```txt
+   Identity added: C:\Users\YOU\.ssh\id_ed25519 (your_github_email@example.com)
+   ```
+
+   > ⚠️ **Make sure the filename matches the key you generated.** If you ran `ssh-keygen -t ed25519` in step 3.1, the file is `id_ed25519`. If you see "No such file or directory," run `ls ~/.ssh` to check what files are there.
+
+</details>
 
 ### 3.3 Add the SSH public key to your GitHub account
 
@@ -222,7 +262,9 @@ The **ssh-agent** is a program that runs in the background on your computer and 
    Hi YOURGITHUBUSERNAME! You've successfully authenticated, but GitHub does not provide shell access.
    ```
 
-   Verify that the message contains your username. If you see a "permission denied" error instead, refer to GitHub's guide on [fixing permission denied errors](https://docs.github.com/en/authentication/troubleshooting-ssh/error-permission-denied-publickey).
+   This means it worked! (The "shell access" message is normal — GitHub uses SSH only for Git operations, not for remote login.)
+
+   If you see a "permission denied" error instead, refer to GitHub's guide on [fixing permission denied errors](https://docs.github.com/en/authentication/troubleshooting-ssh/error-permission-denied-publickey).
 
 ---
 
@@ -272,7 +314,7 @@ You can **push** a local Git repository to GitHub to back it up, share it, or ac
 After your local and remote repositories are connected, use `git push` to send new commits to GitHub:
 
 ```sh
-git push origin main
+git push
 ```
 
 Refresh your GitHub repository page to see the updated files and commit history.
@@ -296,7 +338,7 @@ Let's try it by adding a README file on GitHub:
 5. In your terminal, pull the new file to your local repository:
 
    ```sh
-   git pull origin main
+   git pull
    ```
 
 6. Look inside your project folder — `README.md` should now be there.
