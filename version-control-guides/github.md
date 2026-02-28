@@ -113,8 +113,6 @@ The **ssh-agent** is a program that runs in the background on your computer and 
    Agent pid 59566
    ```
 
-   > 💡 Depending on your environment, you may need to use a slightly different command. Check the reference link above for alternatives.
-
 2. If you're using macOS Sierra 10.12.2 or later, you'll need to configure your SSH settings so your key is loaded automatically each time you start a session.
 
    - Check whether the config file already exists:
@@ -296,16 +294,21 @@ You can **push** a local Git repository to GitHub to back it up, share it, or ac
    git checkout main
    ```
 
-6. Link your local repository to the new remote and push your commits:
+6. Link your local repository to the new remote:
 
    ```sh
    git remote add origin git@github.com:YOURUSERNAME/myproject.git
+   ```
+
+7. Push your commits:
+
+   ```sh
    git push -u origin main
    ```
 
    > 💡 **What does `origin` mean?** It's the conventional name for your primary remote repository. The `-u` flag in the push command sets `origin main` as the default, so future pushes can be shortened to just `git push`.
 
-7. Refresh your GitHub repository page — your files should now appear there.
+8. Refresh your GitHub repository page — your files should now appear there.
 
    > ⚠️ **Commits don't sync automatically.** After this initial setup, local commits will _not_ appear on GitHub until you push them. See [Section 4.2](#42-push-changes-to-a-remote-repository) below.
 
