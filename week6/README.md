@@ -1,29 +1,17 @@
-# Week 6 • Version Control 3 / Refactoring
+# Week 6
 
 ## References
 
 - [Class
   Slides]() - link to be added
-- Week 4 Exercises Redux
-  - [Exercise 4](https://editor.p5js.org/enickles/sketches/37od7_tjF)
-  - [Exercise 3](https://editor.p5js.org/enickles/sketches/jwt-VWMOK)
 - Refactoring
-  - [Example 1](https://editor.p5js.org/enickles/sketches/bykhIJSBj) /
-    [Refactored](https://editor.p5js.org/enickles/sketches/MAj5MQ_yk) 
-  - [Example 2](https://editor.p5js.org/enickles/sketches/EQscgAK2b) /
-    [Refactored](https://editor.p5js.org/enickles/sketches/E0HRz9YjC) 
-  - [Example 3](https://editor.p5js.org/enickles/sketches/OXhVBDVMk) /
-    [Refactored](https://editor.p5js.org/enickles/sketches/_gTwYE_0i) 
-  - [Example 4](https://editor.p5js.org/enickles/sketches/eG70VJ7aV)
-    - [Refactored part 1](https://editor.p5js.org/enickles/sketches/r711FGdgE) - Create a class and instantiate two objects.
-    - [Refactored part 2](https://editor.p5js.org/enickles/sketches/z2_QBCX1D) - Use a loop in setup() to automate object creation.
-      In draw(), access the objects to display them, move them, and make them
-      bounce.
-    - [Refactored part 3](https://editor.p5js.org/enickles/sketches/p9M_8aom_) - Implement a generic bounce function that works for
-      all objects. This uses `return` keyword. "*[What are return
-      values](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Return_values)?
-      Return values are just what they sound like — the values that a function
-      returns when it completes its task.*"
+  - [Example 1](https://editor.p5js.org/enickles/sketches/5ye7oQJ5I) /
+    Refactored to be added
+  - [Example 2](https://editor.p5js.org/enickles/sketches/rk0N07cuT) /
+    Refactored to be added
+  - [Example 3](https://editor.p5js.org/enickles/sketches/JndToNNAp) /
+    Refactored to be added
+  - [Example 4](https://editor.p5js.org/enickles/sketches/ISeSrVl60) / Refactored to be added
   - [Refactoring: Improving the Design of Existing Code, 2nd
     Edition](https://bobcat.library.nyu.edu/primo-explore/fulldisplay?docid=nyu_aleph005592882&context=L&vid=NYU&lang=en_US&search_scope=all&adaptor=Local%20Search%20Engine&isFrbr=true&tab=all&query=any,contains,martin%20fowler&sortby=date&facet=frbrgroupid,include,1149505003&mode=basic&offset=0)
     by Martin Fowler, especially “Chapter 2: Principles in Refactoring” and
@@ -49,7 +37,7 @@
 
 ## Assignment
 
-### Creative Exercises Path • Refactor + Git Branches
+### Creative Exercises Path • Refactor
 
 <details>
 
@@ -62,7 +50,7 @@
   framework](https://github.com/ellennickles/code-your-way-s26/blob/main/version-control-guides/tips-and-tricks.md#oh-my-zsh) (if not already implemented) to automatically display
   when you are in a Git repository along with the current branch.
 
-### Part 1: Refactor + Git Branches
+### Part 1: Refactor
 
 - Set Up Your Local Project
   - Create a local directory for a p5.js project and initialize it as a [Git
