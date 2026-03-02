@@ -11,8 +11,8 @@
   - [Example 3](https://editor.p5js.org/enickles/sketches/JndToNNAp) /
     [Refactored](https://editor.p5js.org/enickles/sketches/6juxCo6iW)
   - [Example 4](https://editor.p5js.org/enickles/sketches/ISeSrVl60) /
-     - [Refactored part 1](https://editor.p5js.org/enickles/sketches/r711FGdgE) - Create a class and instantiate two objects.
-     - [Refactored part 2](https://editor.p5js.org/enickles/sketches/z2_QBCX1D) - Use a loop in setup() to automate object creation. In draw(), use another loop access the objects to draw them on the canvas, move them, and make them bounce.
+    - [Refactored part 1](https://editor.p5js.org/enickles/sketches/r711FGdgE) - Create a class and instantiate two objects.
+    - [Refactored part 2](https://editor.p5js.org/enickles/sketches/z2_QBCX1D) - Use a loop in setup() to automate object creation. In draw(), use another loop access the objects to draw them on the canvas, move them, and make them bounce.
   - [Refactoring: Improving the Design of Existing Code, 2nd
     Edition](https://bobcat.library.nyu.edu/primo-explore/fulldisplay?docid=nyu_aleph005592882&context=L&vid=NYU&lang=en_US&search_scope=all&adaptor=Local%20Search%20Engine&isFrbr=true&tab=all&query=any,contains,martin%20fowler&sortby=date&facet=frbrgroupid,include,1149505003&mode=basic&offset=0)
     by Martin Fowler, especially "Chapter 2: Principles in Refactoring" and
