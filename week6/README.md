@@ -2,7 +2,7 @@
 
 ## References
 
-- [Class Slides]() - link to be added
+- [Class Slides](https://drive.google.com/drive/u/1/folders/17ZkMDK7nC9NSmLt99olyEhQt_kHkQymR)
 - Refactoring
   - [Example 1](https://editor.p5js.org/enickles/sketches/5ye7oQJ5I) /
     Refactored to be added
