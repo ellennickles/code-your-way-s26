@@ -4,7 +4,14 @@
 
 - [Class
   Slides](https://drive.google.com/drive/u/1/folders/17ZkMDK7nC9NSmLt99olyEhQt_kHkQymR)
-  
+- [A Guide to Which AI to Use in the Agentic Era: It's not just chatbots
+  anymore](https://www.oneusefulthing.org/p/a-guide-to-which-ai-to-use-in-the?publication_id=1180644&post_id=188100833&isFreemail=true&r=1p9zb5&triedRedirect=true&_src_ref=mail.google.com)
+  by Ethan Mollick
+- GitHub Docs: [Best practices for using GitHub
+  Copilot](https://docs.github.com/en/copilot/get-started/best-practices)
+- VS Code Docs: [GitHub Copilot in VS Code]()
+
+
 ## Assignment
 
 We are now entering the second phase of the course: a supportive environment for self-directed project development within our learning community. This phase is structured to help you successfully complete either one comprehensive project or a series of smaller, related projects (such as creating multiple portfolio pieces). Use this opportunity to achieve your individual goals, whether it's advancing your creative portfolio or diving deeply into a single, ambitious project.
