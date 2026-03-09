@@ -189,6 +189,28 @@ workshopping ideas/projects, which likely cannot be made up if it could disrupt
 the overall course schedule. Extensions are distributed at the discretion of the
 instructor.
 
+#### Midterm Progress Reports
+
+Around the midpoint of the semester, I submit progress reports to NYU for each
+student. These are not part of your official transcript. They are a check-in to
+share how things are going, including any patterns with missing or incomplete
+work.
+
+Your progress at midsemester will be evaluated as Strong Progress, Satisfactory
+Progress, or Concerns about Progress:
+
+- Strong Progress means consistently participating in class (see Participation
+below) and completing all weekly assignments to meet the grading criteria
+described above.
+- Satisfactory Progress means participating in class most weeks and completing
+most weekly assignments, though some may be partially complete or submitted
+late.
+- Concerns about Progress means not participating in class regularly and
+  regularly missing weekly assignments. Multiple absences without communicating
+  with the instructor will also raise concerns about progress.
+
+If I have any concerns about your progress, I will reach out to you directly before or alongside the report. As always, if you are struggling with the material or falling behind for any reason, please contact me sooner rather than later so we can figure it out together.
+
 #### Final Course Evaluation
 
 Final course evaluation will be based on participation and attendance, and the completion of all assignments, including the final independent project, according to this breakdown:
