@@ -27,7 +27,7 @@ of the Arts • Spring 2026
 | Feb 17 | Week 4 | (Tuesday) [Version Control 2 / Iterative Patterns 2](https://github.com/ellennickles/code-your-way-s26/tree/main/week4) |
 | Feb 23 | Week 5 | [Version Control 3 / Parametric Geometries](https://github.com/ellennickles/code-your-way-s26/tree/main/week5) |
 | Mar 2 | Week 6 | [Version Control 4 / Refactoring](https://github.com/ellennickles/code-your-way-s26/tree/main/week6) |
-| Mar 9 | Week 7 | Github Copilot + AI Tools / Project Planning |
+| Mar 9 | Week 7 | [AI Tools + GitHub Copilot / Project Planning](https://github.com/ellennickles/code-your-way-s26/tree/main/week7) |
 | Mar 16 | No Class | Spring Break |
 
 ### Part 2: Independent Project Development
