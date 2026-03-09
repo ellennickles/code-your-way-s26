@@ -34,7 +34,7 @@ of the Arts • Spring 2026
 
 | Date | Week | Assignment |
 | :--- | :--- | :--- |
-| Mar 23 | Week 8 | Project Proposals|
+| Mar 23 | Week 8 | Project Updates or Proposals|
 | Mar 30 | Week 9 | Hello World |
 | Apr 6 | Week 10 | User Testing |
 | Apr 13 | Week 11 | Guest Feedback (Tentative) |
