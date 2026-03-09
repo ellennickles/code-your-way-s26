@@ -9,7 +9,8 @@
   by Ethan Mollick
 - GitHub Docs: [Best practices for using GitHub
   Copilot](https://docs.github.com/en/copilot/get-started/best-practices)
-- VS Code Docs: [GitHub Copilot in VS Code]()
+- VS Code Docs: [GitHub Copilot in VS
+  Code](https://code.visualstudio.com/docs/copilot/overview)
 
 
 ## Assignment
