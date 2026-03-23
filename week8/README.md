@@ -6,7 +6,7 @@
 
 ## Assignment
 
-We are all moving into project development mode. No matter where you are in your process, the goal this week is the same: **build something you can share with the class when we meet next.**
+We are all moving into project development mode! No matter where you are in your process, the goal this week is the same: **build something you can share with the class when we meet next.**
 
 For some of you, this means getting a first version off the ground. For others, it means pushing into the next phase of work you've already started. Either way, the aim is to arrive with something visible, testable, or demonstrable, not polished, not finished, just *shareable*.
 
@@ -27,7 +27,7 @@ If you find it helpful, you can use the [SMART criteria](https://en.wikipedia.or
 
 ### Part 2: Build It
 
-Using your target as a guide, start making. Your first attempt does not need to be polished, perfect, or even fully functional. Think of Anne Lamott's "[Shitty First Drafts](https://wrd.as.uky.edu/sites/default/files/1-Shitty%20First%20Drafts.pdf)" from *Bird by Bird*: just get something down so you have something to build on.
+Using your target as a guide, start making. Again, your first attempt does not need to be polished or even fully functional. Think of Anne Lamott's "[Shitty First Drafts](https://wrd.as.uky.edu/sites/default/files/1-Shitty%20First%20Drafts.pdf)" from *Bird by Bird*: just get something down so you have something to build on.
 
 What this looks like depends on your project and goals:
 
@@ -68,8 +68,8 @@ Reflect on your process and progress this week. In your documentation, address:
   week, briefly describe:
   - One moment where AI helped
   - One moment where it didn't or fell short
-  - If you chose not to use AI, note why.
-  - We'll talk more about this in class.
+  - If you chose not to use AI, note why
+  - We'll talk more about this in class
 
 Include links to your code, documentation, media, etc. Remember to cite all references and source materials.
 
