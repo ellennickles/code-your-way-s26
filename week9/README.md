@@ -8,7 +8,7 @@
 
 ### Part 1: Create a User-Testable Version of Your Project
 
-Last week you started building. This week, keep going with the goal of sharing your project next week for feedback from our group. Although your project may still be in early stages, try to test **one key aspect** of your idea or explore the next step in its development.
+Last week you kept building or started. This week, keep going with the goal of sharing your project next week for feedback from our group. Although your project may still be in early stages, try to test **one key aspect** of your idea or explore the next step in its development.
 
 What makes this version "user-testable"? That will depend on your project. It might be an interactive element, a visual or audio component, a system behavior, or a sequence of actions. The version does not need to be complete. It needs to be something someone else can experience.
 
