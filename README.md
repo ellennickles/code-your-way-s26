@@ -36,7 +36,7 @@ of the Arts • Spring 2026
 | :--- | :--- | :--- |
 | Mar 23 | Week 8 | [Project Updates or Proposals](https://github.com/ellennickles/code-your-way-s26/blob/main/week8) |
 | Mar 30 | Week 9 | [Hello World](https://github.com/ellennickles/code-your-way-s26/tree/main/week9) |
-| Apr 6 | Week 10 | User Testing |
+| Apr 6 | Week 10 | [User Testing](https://github.com/ellennickles/code-your-way-s26/tree/main/week10) |
 | Apr 13 | Week 11 | Guest Feedback |
 | Apr 20 | Week 12 | Individual Meetings |
 | Apr 27 | Week 13 | Last Chance Workshop |
