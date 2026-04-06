@@ -1,4 +1,4 @@
-# Week 10 • User Testing
+# Week 10
 
 ## References
 
