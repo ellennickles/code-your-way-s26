@@ -25,7 +25,7 @@
     replace it.
   - **Slide 1:** Introduce yourself and your project clearly and concisely. What are
     you making and why? Who is the audience?
-  - **Slide 2:** Provide images or a 1-min video to demo your project. Choose what
+  - **Slide 2:** Provide images or a ~1-2 min video to demo your project. Choose what
     makes sense for your project. Make sure the video is shared for public viewing.
   - **Slide 3:** What do you want feedback on? Ask at least one (1) specific
     question to guide the conversation. Think about what aligns with your
