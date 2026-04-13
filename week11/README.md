@@ -1,4 +1,4 @@
-# Week 11 • Guest Feedback
+# Week 11
 
 ## Assignment
 
