@@ -9,8 +9,6 @@
   meeting](https://docs.google.com/document/d/16BhsUrZaG0-gLywGG-96Dd9iPMsXFcVBIkiEHuqdTxk/edit?tab=t.0)
   with Ellen to discuss your project progress and timeline for the next two
   weeks.
-- The meeting is not primarily for troubleshooting technical issues, but we can
-  certainly arrange a separate follow-up time if needed!
 - [Sign up
   here](https://docs.google.com/document/d/16BhsUrZaG0-gLywGG-96Dd9iPMsXFcVBIkiEHuqdTxk/edit?tab=t.0)
 
