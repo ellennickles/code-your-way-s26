@@ -3,7 +3,7 @@
 ## References
 
 - [Class
-  Slides](https://drive.google.com/drive/u/1/folders/1HC5g1BO8moptbtgz-JwVVv9DldnW3Q_U)
+  Slides](https://drive.google.com/drive/u/1/folders/17ZkMDK7nC9NSmLt99olyEhQt_kHkQymR)
 - [NYU Course Evaluation](https://go.blueja.io/ZDwJVxoydEuWuhnYaqimdQ)
 
 ## Assignment due at the start of class
