@@ -4,6 +4,7 @@
 
 - [Class
   Slides](https://drive.google.com/drive/u/1/folders/17ZkMDK7nC9NSmLt99olyEhQt_kHkQymR)
+- [Course Redesign Survey](https://forms.gle/XUKAZQsDeW1ehbzW6)
 - [NYU Course Evaluation](https://go.blueja.io/ZDwJVxoydEuWuhnYaqimdQ)
 
 ## Assignment due at the start of class
