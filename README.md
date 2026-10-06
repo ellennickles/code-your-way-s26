@@ -1,9 +1,24 @@
 # CODE YOUR WAY
 
+## Spring 2027 Course Description
+
+*Welcome! Code Your Way returns in Spring 2027 with a new focus on climate.*
+
+This course helps students sharpen their coding skills and put them to work on a shared focus. The focus this semester is climate.
+
+The first half of the semester revisits core programming concepts and builds a toolkit for developing code-driven projects: algorithmic thinking, debugging, version control, and working with generative AI while weighing its environmental costs. Alongside this, students develop climate literacy, including the solutions that already exist and the challenge of communicating them.
+
+In the second half, the class shifts to a studio format. Working individually or in small teams, students develop projects in response to the work of a local partner (to be announced), with the aim of making something useful beyond the classroom.
+
+Throughout, students reflect on their process and cultivate the understanding to direct their own work, with or without AI. The course follows directly from Introduction to Computational Media (ICM) and is open to anyone looking to advance their coding practice. Examples are provided in JavaScript using p5.js; students may consult the instructor about working with another library, framework, or language. Prerequisite: ICM or equivalent experience.
+
+## Spring 2026 Archive
+
+*Everything below is from Spring 2026. The schedule, assignments, and policies
+will be updated for 2027.*
+
 ITPG-GT 3007 • Interactive Telecommunications Program (ITP) • NYU Tisch School
 of the Arts • Spring 2026
-
-*This is a living document and subject to change
 
 | Course Information|  |
 | :--- | ----------- |
