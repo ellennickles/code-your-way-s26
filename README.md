@@ -1,5 +1,13 @@
 # CODE YOUR WAY
 
+## Spring 2027 Client Partner Announced
+
+We're excited to announce that Code Your Way will partner with [Solar One](https://solar1.org), a New York City environmental education nonprofit, this spring. Solar One helps New Yorkers take part in the clean energy transition. Their work spans climate education in city schools, green job training for adults, and solar access for affordable housing, with a focus on the communities that bear the most harm from pollution and heat.
+
+This is an opportunity to develop a code-based project for a real-world client. The course is professional development for your practice: you'll learn to use version control, test, and document your work as you build. You'll finish with a working project for your portfolio and a process you can explain to future collaborators and employers from start to finish.
+
+Seats are still open to anyone who has taken ICM or has equivalent experience. No background in climate or energy is needed. Questions? Contact instructor Ellen Nickles at [ellen.nickles@nyu.edu](mailto:ellen.nickles@nyu.edu).
+
 ## Spring 2027 Course Description
 
 *Welcome! Code Your Way returns in Spring 2027 with a new focus on climate.*
